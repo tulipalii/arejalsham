@@ -1,0 +1,1649 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123A2A">
+<meta name="description" content="أريج الشام — المكتب العلمي لمعمل فارما لاند في سوريا: كتالوج الأصناف والأسعار الرسمية، عرض الشهر 11+10، الطلب عبر واتساب 0946 296 114 — دمشق.">
+<title>أريج الشام — المكتب العلمي لمعمل فارما لاند · الأسعار الرسمية</title>
+
+<!-- الخطوط: Alexandria للعناوين + IBM Plex Sans Arabic للنصوص + Amiri لاسم الشركة -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Amiri:wght@700&display=swap" rel="stylesheet">
+
+<!-- مكتبة الأيقونات -->
+<script src="https://unpkg.com/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+
+<style>
+/* ============ المتغيرات (ألوان الشعار: زمردي + ذهبي + عاجي رخامي) ============ */
+:root{
+  --bg:#F8F4EA;
+  --bg-soft:#EFE8D6;
+  --surface:#FDFBF4;
+  --ink:#1C2B22;
+  --ink-2:#57645A;
+  --line:#DCD4BE;
+  --green:#123A2A;        /* الزمرد العميق */
+  --green-2:#0C2A1F;
+  --green-3:#1E6B47;
+  --gold:#C9A227;         /* الذهبي */
+  --gold-2:#A87F1B;
+  --gold-soft:#F3EAD2;
+  --f-head:'Alexandria',sans-serif;
+  --f-body:'IBM Plex Sans Arabic',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--f-body);background:var(--bg);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body.lock{overflow:hidden}
+img,svg{display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+h1,h2,h3,h4{font-family:var(--f-head);line-height:1.35;font-weight:700}
+::selection{background:var(--green);color:var(--gold-soft)}
+.lucide{stroke-width:1.8}
+.hide{display:none!important}
+.container{max-width:1180px;margin-inline:auto;padding-inline:24px}
+section{scroll-margin-top:92px}
+
+/* ============ أزرار عامة ============ */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 24px;border-radius:999px;font-weight:600;font-size:.95rem;transition:transform .25s,background .25s,color .25s,box-shadow .25s;border:1.5px solid transparent}
+.btn .lucide{width:18px;height:18px}
+.btn-primary{background:var(--green);color:var(--gold-soft)}
+.btn-primary:hover{background:var(--green-2);transform:translateY(-2px);box-shadow:0 12px 26px rgba(12,42,31,.22)}
+.btn-ghost{border-color:var(--ink);color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--bg);transform:translateY(-2px)}
+.btn-gold{border-color:var(--gold-2);color:var(--gold-2)}
+.btn-gold:hover{background:var(--gold);border-color:var(--gold);color:#241C05;transform:translateY(-2px)}
+.btn-block{width:100%;justify-content:center}
+.btn-sm{padding:10px 18px;font-size:.88rem}
+.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:.25s;background:var(--surface)}
+.icon-btn:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.icon-btn .lucide{width:18px;height:18px}
+
+/* أيقونة واتساب */
+.ms-ic{width:18px;height:18px;fill:currentColor;flex:none}
+
+/* ============ الظهور عند التمرير ============ */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1);transition-delay:var(--d,0s)}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ الشريط العلوي ============ */
+.topbar{background:var(--green-2);color:rgba(248,244,234,.85);font-size:.8rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;padding-block:8px;gap:16px}
+.topbar-item{display:inline-flex;align-items:center;gap:7px;transition:color .25s}
+a.topbar-item:hover{color:var(--gold)}
+.topbar-item .lucide{width:14px;height:14px;color:var(--gold)}
+.topbar-item .ms-ic{width:15px;height:15px;color:var(--gold)}
+.topbar bdi{direction:ltr;unicode-bidi:embed}
+.topbar-right{display:flex;gap:22px}
+@media(max-width:720px){.topbar-right{display:none}}
+
+/* ============ زر واتساب العائم ============ */
+.fab{position:fixed;bottom:22px;inset-inline-end:22px;z-index:70;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,var(--green-3),var(--green));color:var(--gold-soft);display:grid;place-items:center;box-shadow:0 12px 30px rgba(12,42,31,.4);transition:transform .25s}
+.fab:hover{transform:translateY(-4px) scale(1.06)}
+.fab .ms-ic{width:28px;height:28px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--green-3);animation:fabPulse 2.2s ease-out infinite}
+@keyframes fabPulse{0%{transform:scale(1);opacity:.85}100%{transform:scale(1.6);opacity:0}}
+.fab-tip{position:absolute;inset-inline-end:72px;bottom:14px;background:var(--ink);color:var(--bg);font-size:.78rem;font-weight:600;border-radius:999px;padding:6px 14px;white-space:nowrap;opacity:0;transform:translateX(-6px);transition:.25s;pointer-events:none}
+.fab:hover .fab-tip{opacity:1;transform:none}
+@media(max-width:640px){.fab{width:54px;height:54px}.fab-tip{display:none}}
+
+/* ============ الهيدر ============ */
+header.site{position:sticky;top:0;z-index:60;transition:.3s;border-bottom:1px solid transparent}
+header.site.scrolled{background:rgba(248,244,234,.9);backdrop-filter:blur(12px);border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding-block:14px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-mark{width:46px;height:46px;display:grid;place-items:center}
+.logo-mark svg{width:100%;height:100%}
+.logo-txt b{font-family:'Amiri',serif;font-size:1.55rem;font-weight:700;display:block;line-height:1.15;color:var(--green)}
+.logo-txt span{font-size:.72rem;color:var(--ink-2);letter-spacing:.4px;display:block;margin-top:-4px}
+.nav-links{display:flex;gap:30px;font-weight:500;font-size:.95rem}
+.nav-links a{position:relative;padding-block:4px;color:var(--ink-2);transition:color .25s}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a::after{content:"";position:absolute;bottom:0;inset-inline-start:0;width:0;height:2px;background:var(--gold);transition:width .3s}
+.nav-links a:hover::after{width:100%}
+.nav-cta{position:relative}
+.cart-badge{position:absolute;top:-7px;inset-inline-start:-7px;min-width:22px;height:22px;border-radius:999px;background:var(--gold);color:#241C05;font-size:.72rem;font-weight:700;display:grid;place-items:center;padding-inline:6px;border:2px solid var(--bg)}
+.cart-badge.bump{animation:bump .45s}
+@keyframes bump{40%{transform:scale(1.45)}}
+#btnMobile{display:none}
+@media(max-width:900px){.nav-links{display:none}#btnMobile{display:grid}.cart-label{display:none}}
+
+/* ============ قائمة الموبايل ============ */
+.mnav{position:fixed;inset:0;background:var(--green-2);color:var(--gold-soft);z-index:90;padding:28px;display:flex;flex-direction:column;transform:translateX(-105%);transition:transform .45s cubic-bezier(.22,.61,.36,1)}
+.mnav.open{transform:none}
+.mnav-head{display:flex;justify-content:space-between;align-items:center}
+.mnav-head .logo-txt b,.mnav-head .logo-txt span{color:var(--gold-soft)}
+.mnav nav{flex:1;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.mnav nav a{font-family:var(--f-head);font-size:2rem;font-weight:700;padding-block:10px;border-bottom:1px solid rgba(248,244,234,.12);display:flex;align-items:baseline;gap:16px;transition:color .25s,padding-inline-start .25s}
+.mnav nav a em{font-style:normal;font-size:.85rem;color:var(--gold);font-family:var(--f-head)}
+.mnav nav a:hover{color:var(--gold);padding-inline-start:10px}
+.mnav-foot{display:flex;flex-direction:column;gap:6px;color:rgba(248,244,234,.7);font-size:.9rem}
+.mnav-foot .ms-ic{width:15px;height:15px;color:var(--gold)}
+
+/* ============ الهيرو بواجهة الصورة ============ */
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#D8E4D2,#F0E4C0)}
+/* خلفية الصورة — احفظ الصورة باسم hero.jpg بجانب هذا الملف */
+.hero-bg{position:absolute;inset:0;background:url('hero.jpg') center 42%/cover no-repeat}
+.hero-bg::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg, rgba(248,244,234,.92) 0%, rgba(248,244,234,0) 90px),
+  linear-gradient(0deg,  rgba(248,244,234,1) 0%,  rgba(248,244,234,0) 110px),
+  linear-gradient(90deg, rgba(12,42,31,0) 0%, rgba(12,42,31,.10) 28%, rgba(248,244,234,.55) 50%, rgba(248,244,234,.94) 66%, rgba(248,244,234,.98) 100%)}
+.hero-inner{position:relative;z-index:2;padding-block:100px 90px}
+.hero-content{max-width:620px}
+.hero-kicker{display:inline-flex;align-items:center;gap:9px;font-size:.85rem;font-weight:600;color:var(--ink-2);border:1px solid var(--line);background:rgba(253,251,244,.85);border-radius:999px;padding:7px 16px;margin-bottom:22px;backdrop-filter:blur(4px)}
+.hero-kicker .lucide{width:15px;height:15px;color:var(--gold-2)}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.6rem);font-weight:800;letter-spacing:-.5px;color:var(--green)}
+.hl{position:relative;color:var(--gold-2);white-space:nowrap;display:inline-block}
+.hl svg{position:absolute;inset-inline:0;bottom:-12px;width:100%;height:12px}
+.hero p.lead{margin-block:24px 30px;color:var(--ink-2);font-size:1.06rem;max-width:56ch}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+/* شارات عائمة فوق الصورة (سطح المكتب فقط) */
+.chip-float{position:absolute;z-index:3;display:inline-flex;align-items:center;gap:8px;background:rgba(253,251,244,.92);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:.84rem;font-weight:600;box-shadow:0 8px 20px rgba(18,58,42,.14);backdrop-filter:blur(4px)}
+.chip-float .lucide{width:16px;height:16px;color:var(--gold-2)}
+.cf-1{top:24%;inset-inline-end:5%}
+.cf-2{bottom:22%;inset-inline-end:37%}
+@media(max-width:1060px){.chip-float{display:none}}
+/* شريط الصورة للموبايل */
+.hero-strip{display:none}
+@media(max-width:760px){
+  .hero-inner{padding-block:64px 56px}
+  .hero-content{max-width:100%}
+  .hero-bg::after{background:linear-gradient(180deg,rgba(248,244,234,.94),rgba(248,244,234,.9))}
+  .hero-strip{display:block;position:relative;z-index:2;height:230px;background:url('hero.jpg') center 42%/cover no-repeat;border-block:1px solid var(--line)}
+}
+
+/* خط النمو الذهبي */
+.grow{margin-top:26px}
+.grow svg{width:100%;height:80px}
+.grow path{stroke:var(--gold);opacity:.5;fill:none;stroke-width:2;stroke-linecap:round}
+
+/* الإحصائيات */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--line);margin-top:10px}
+.stat{padding:26px 22px;border-inline-end:1px solid var(--line)}
+.stat:last-child{border-inline-end:none}
+.stat-num{display:flex;align-items:baseline;gap:2px;font-family:var(--f-head)}
+.stat-num b{font-size:2.5rem;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums;color:var(--green)}
+.stat-num span{color:var(--gold-2);font-weight:800;font-size:1.5rem}
+.stat p{color:var(--ink-2);font-size:.9rem;margin-top:2px}
+@media(max-width:860px){.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-inline-end:none}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* ============ الشريط المتحرك ============ */
+.marquee{background:var(--green);color:var(--gold-soft);overflow:hidden;padding-block:15px;direction:ltr}
+.mq-track{display:flex;width:max-content;gap:44px;align-items:center;animation:mq 30s linear infinite}
+.marquee:hover .mq-track{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq-track span{font-family:var(--f-head);font-weight:600;font-size:1.05rem;white-space:nowrap}
+.mq-track i{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none}
+
+/* ============ رؤوس الأقسام ============ */
+.sec{padding-block:92px}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:34px;flex-wrap:wrap;margin-bottom:38px}
+.sec-index{font-family:var(--f-head);color:var(--gold-2);font-weight:700;font-size:.9rem;display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.sec-index::after{content:"";width:44px;height:1.5px;background:var(--gold)}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:800;color:var(--green)}
+.sec-head h2 span{color:var(--ink-2);font-weight:500}
+.sec-sub{color:var(--ink-2);max-width:42ch;font-size:.98rem}
+
+/* ============ الكتالوج ============ */
+.tools{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:20px}
+.search{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;min-width:300px;transition:border-color .25s}
+.search:focus-within{border-color:var(--green)}
+.search .lucide{width:17px;height:17px;color:var(--ink-2)}
+.search input{border:none;outline:none;background:none;font-family:inherit;font-size:.95rem;width:100%;color:var(--ink)}
+.search input::placeholder{color:#9AA49B}
+#prodCount{font-size:.88rem;color:var(--ink-2)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:999px;padding:8px 16px;font-weight:600;font-size:.88rem;color:var(--ink-2);transition:.25s;background:transparent}
+.chip b{font-family:var(--f-head);font-weight:700;font-size:.75rem;background:var(--bg-soft);border-radius:999px;padding:1px 8px;color:var(--ink-2);transition:.25s}
+.chip:hover{border-color:var(--gold-2);color:var(--ink)}
+.chip.on{background:var(--green);border-color:var(--green);color:var(--gold-soft)}
+.chip.on b{background:var(--gold);color:#241C05}
+
+/* صفوف المنتج */
+.plist{border-top:1.5px solid var(--green)}
+.p-row{border-bottom:1px solid var(--line);transition:background .3s;animation:rowIn .5s both}
+@keyframes rowIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.p-row:hover,.p-row.open{background:var(--surface)}
+.p-head{display:grid;grid-template-columns:44px 64px 1fr auto auto 36px;grid-template-areas:"num ic info price add caret";gap:22px;align-items:center;padding:20px 10px}
+.p-num{grid-area:num;font-family:var(--f-head);font-weight:600;color:var(--ink-2);font-size:.85rem;transition:color .25s}
+.p-row:hover .p-num{color:var(--gold-2)}
+.p-ic{grid-area:ic;width:60px;height:60px;border-radius:15px;background:var(--gold-soft);border:1px solid var(--line);display:grid;place-items:center;color:var(--green);transition:.3s}
+.p-ic .lucide{width:28px;height:28px}
+.p-row:hover .p-ic{background:var(--green);color:var(--gold);border-color:var(--green)}
+.p-info{grid-area:info;min-width:0}
+.p-info h3{font-size:1.05rem;font-weight:600;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.p-tag{font-family:var(--f-body);font-size:.7rem;font-weight:600;background:var(--gold-soft);color:var(--gold-2);border-radius:999px;padding:2px 11px}
+.p-tag.p-new{background:var(--green);color:var(--gold);font-weight:700}
+.p-info p{font-size:.92rem;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.p-buy{display:contents}
+.p-price{grid-area:price;text-align:start;min-width:120px}
+.p-price em{display:block;font-style:normal;font-size:.72rem;color:var(--gold-2);font-weight:600}
+.p-price strong{font-family:var(--f-head);font-weight:700;font-size:1.35rem;font-variant-numeric:tabular-nums;color:var(--green)}
+.p-price span{font-size:.8rem;color:var(--ink-2)}
+.p-add{grid-area:add;display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--gold-2);border-radius:999px;padding:10px 20px;font-weight:600;font-size:.88rem;color:var(--gold-2);transition:.25s;white-space:nowrap}
+.p-add .lucide{width:15px;height:15px}
+.p-add:hover{background:var(--gold);border-color:var(--gold);color:#241C05;transform:translateY(-2px)}
+.p-add.ok{background:var(--green);border-color:var(--green);color:var(--gold-soft)}
+.p-caret{grid-area:caret;width:36px;height:36px;display:grid;place-items:center;color:var(--ink-2);border-radius:50%;transition:.25s}
+.p-caret:hover{color:var(--ink);background:var(--bg-soft)}
+.p-caret .lucide{width:18px;height:18px;transition:transform .35s}
+.p-row.open .p-caret .lucide{transform:rotate(180deg)}
+.p-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.22,.61,.36,1)}
+.p-row.open .p-body{grid-template-rows:1fr}
+.p-body-in{overflow:hidden}
+.p-specs{padding:0 10px 24px;padding-inline-start:152px}
+.p-specs h4{font-size:.8rem;color:var(--gold-2);margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.p-specs h4::after{content:"";flex:1;height:1px;background:var(--line)}
+.p-specs ul{list-style:none;columns:2;column-gap:40px}
+.p-specs li{font-size:.92rem;color:var(--ink-2);padding-block:4px;break-inside:avoid;position:relative;padding-inline-start:18px}
+.p-specs li::before{content:"";position:absolute;inset-inline-start:0;top:14px;width:7px;height:7px;border-radius:2px;background:var(--gold)}
+.empty{padding:60px 20px;text-align:center;color:var(--ink-2)}
+.empty .lucide{width:44px;height:44px;margin-inline:auto;margin-bottom:14px;stroke-width:1.3}
+.empty p{margin-bottom:18px}
+.cat-note{margin-top:18px;font-size:.85rem;color:var(--ink-2);display:flex;align-items:center;gap:8px}
+.cat-note .lucide{width:15px;height:15px;color:var(--gold-2);flex:none}
+@media(max-width:920px){
+  .p-head{grid-template-columns:56px 1fr 36px;grid-template-areas:"ic info caret" "ic buy buy";row-gap:16px}
+  .p-num{display:none}
+  .p-buy{grid-area:buy;display:flex;justify-content:space-between;align-items:center;gap:14px}
+  .p-price,.p-add{grid-area:auto}
+  .p-info p{-webkit-line-clamp:2}
+  .p-specs{padding-inline-start:10px}
+  .p-specs ul{columns:1}
+}
+
+/* ============ لماذا نحن ============ */
+.why{background:var(--green);color:var(--gold-soft)}
+.why .sec-index{color:var(--gold)}
+.why .sec-index::after{background:var(--gold)}
+.why .sec-head h2{color:var(--gold-soft)}
+.why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}
+.why-intro{position:sticky;top:120px}
+.why-intro h2{font-size:clamp(1.8rem,3.4vw,2.7rem);font-weight:800;margin-bottom:20px}
+.why-intro p{color:rgba(248,244,234,.75);max-width:46ch}
+.why-item{display:grid;grid-template-columns:110px 1fr;gap:20px;padding-block:30px;border-bottom:1px solid rgba(248,244,234,.14)}
+.why-item:first-child{padding-top:6px}
+.why-item:last-child{border-bottom:none}
+.why-item em{font-style:normal;font-family:var(--f-head);font-weight:800;font-size:2.4rem;color:var(--gold);line-height:1.2;opacity:.92}
+.why-item h3{font-size:1.2rem;margin-bottom:6px}
+.why-item p{color:rgba(248,244,234,.7);font-size:.95rem}
+@media(max-width:860px){.why-grid{grid-template-columns:1fr;gap:30px}.why-intro{position:static}.why-item{grid-template-columns:70px 1fr}.why-item em{font-size:1.9rem}}
+
+/* ============ التواصل ============ */
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:start}
+.c-info{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:30px}
+.c-info li{list-style:none;display:flex;gap:15px;padding-block:15px;align-items:flex-start}
+.c-info li+li{border-top:1px solid var(--line)}
+.c-info .lucide{width:19px;height:19px;color:var(--gold-2);margin-top:5px;flex:none}
+.c-info .ms-ic{width:19px;height:19px;color:var(--gold-2);margin-top:5px;flex:none}
+.c-info h4{font-size:.95rem;font-weight:600}
+.c-info p{color:var(--ink-2);font-size:.9rem}
+.c-info bdi{direction:ltr;unicode-bidi:embed}
+.c-info a.link{display:inline-flex;align-items:center;gap:5px;color:var(--green-3);font-weight:600;font-size:.88rem;transition:.2s}
+.c-info a.link:hover{color:var(--gold-2)}
+.c-info a.link .lucide{width:14px;height:14px}
+.c-note{margin-top:14px;display:flex;gap:9px;align-items:center;background:var(--gold-soft);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;font-size:.82rem;font-weight:600;color:var(--gold-2)}
+.c-note .lucide{width:16px;height:16px;flex:none}
+.c-form{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px}
+.c-form h3{font-size:1.2rem;margin-bottom:4px;color:var(--green)}
+.c-form>p{color:var(--ink-2);font-size:.9rem;margin-bottom:22px}
+.f-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+.field label{font-size:.84rem;font-weight:600}
+.field input,.field textarea,.field select{background:#F4EFDF;border:1.5px solid var(--line);border-radius:12px;padding:12px 15px;font-family:inherit;font-size:.95rem;color:var(--ink);outline:none;transition:border-color .25s;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--green)}
+.field.err input,.field.err textarea{border-color:var(--gold-2)}
+.err-msg{display:none;font-size:.78rem;color:var(--gold-2);font-weight:600}
+.field.err .err-msg{display:block}
+.c-form .btn{margin-top:20px}
+@media(max-width:860px){.contact-grid,.f-grid{grid-template-columns:1fr}}
+
+/* ============ الفوتر ============ */
+footer.site{background:var(--green-2);color:rgba(248,244,234,.82)}
+.f-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:44px;padding-block:60px 44px}
+.f-top .logo-txt b,.f-top .logo-txt span{color:var(--gold-soft)}
+.f-top p.about{margin-top:16px;font-size:.92rem;max-width:34ch;color:rgba(248,244,234,.65)}
+.f-top h5{font-family:var(--f-head);color:var(--gold);font-size:.8rem;font-weight:600;letter-spacing:.5px;margin-bottom:16px}
+.f-top ul{list-style:none;display:flex;flex-direction:column;gap:10px;font-size:.92rem}
+.f-top ul a{transition:color .25s,padding-inline-start .25s;cursor:pointer}
+.f-top ul a:hover{color:var(--gold);padding-inline-start:6px}
+.f-top li.tl{display:flex;gap:10px;align-items:center}
+.f-top li.tl .lucide{width:15px;height:15px;color:var(--gold);flex:none}
+.f-top li.tl .ms-ic{width:15px;height:15px;color:var(--gold);flex:none}
+.f-top bdi{direction:ltr;unicode-bidi:embed}
+.f-bottom{border-top:1px solid rgba(248,244,234,.12);padding-block:22px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;font-size:.82rem;color:rgba(248,244,234,.55)}.dev-credit{display:inline-flex;align-items:center;gap:6px;color:rgba(248,244,234,.55);text-decoration:none;transition:color .2s ease}.dev-credit b{color:#C9A227;font-weight:600;letter-spacing:.02em}.dev-credit:hover{color:#f8f4ea}.tg-ic{width:13px;height:13px;fill:currentColor;flex:none}
+.adm-entry{display:inline-flex;align-items:center;gap:6px;color:inherit;opacity:.75;transition:.25s;font-size:.82rem}
+.adm-entry:hover{color:var(--gold);opacity:1}
+.adm-entry .lucide{width:13px;height:13px}
+@media(max-width:860px){.f-top{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.f-top{grid-template-columns:1fr}}
+
+/* ============ درج طلب العرض ============ */
+.overlay{position:fixed;inset:0;background:rgba(12,42,31,.5);opacity:0;pointer-events:none;transition:opacity .35s;z-index:80}
+.overlay.show{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;bottom:0;left:0;width:430px;max-width:100vw;background:#F9F6ED;z-index:100;transform:translateX(-105%);transition:transform .45s cubic-bezier(.22,.61,.36,1);display:flex;flex-direction:column;box-shadow:20px 0 60px rgba(12,42,31,.25)}
+.drawer.open{transform:none}
+.dr-head{display:flex;justify-content:space-between;align-items:center;padding:22px 24px;border-bottom:1px solid var(--line)}
+.dr-head h3{font-size:1.2rem;color:var(--green)}
+.dr-head p{font-size:.85rem;color:var(--ink-2)}
+.dr-body{flex:1;overflow-y:auto;padding:10px 24px}
+.dr-foot{border-top:1px solid var(--line);padding:20px 24px;background:var(--surface)}
+.dr-total{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.dr-total span{font-size:.9rem;color:var(--ink-2)}
+.dr-total strong{font-family:var(--f-head);font-size:1.5rem;font-weight:800;font-variant-numeric:tabular-nums;color:var(--green)}
+.dr-note{font-size:.78rem;color:var(--ink-2);margin-bottom:14px}
+.c-item{display:grid;grid-template-columns:46px 1fr auto;gap:14px;align-items:center;padding-block:16px;border-bottom:1px solid var(--line)}
+.c-item .p-ic{width:46px;height:46px;border-radius:12px}
+.c-item .p-ic .lucide{width:21px;height:21px}
+.c-item h4{font-size:.92rem;font-weight:600;line-height:1.4}
+.c-item .unit{font-size:.8rem;color:var(--ink-2)}
+.qty{display:flex;align-items:center;gap:10px}
+.qty button{width:27px;height:27px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;transition:.2s}
+.qty button:hover{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.qty button .lucide{width:13px;height:13px}
+.qty b{font-family:var(--f-head);min-width:20px;text-align:center;font-variant-numeric:tabular-nums}
+.c-side{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.c-side strong{font-family:var(--f-head);font-variant-numeric:tabular-nums;color:var(--green)}
+.c-side .del{color:#A05A44;transition:.2s;display:grid;place-items:center}
+.c-side .del:hover{color:var(--gold-2)}
+.c-side .del .lucide{width:16px;height:16px}
+.dr-empty{padding:70px 10px;text-align:center;color:var(--ink-2)}
+.dr-empty .lucide{width:46px;height:46px;margin-inline:auto;margin-bottom:16px;stroke-width:1.2}
+.dr-empty p{margin-bottom:18px}
+.dr-form .f-grid{grid-template-columns:1fr;margin-bottom:4px}
+.dr-summary{background:var(--bg-soft);border-radius:12px;padding:12px 16px;font-size:.88rem;display:flex;justify-content:space-between;margin-bottom:18px;font-weight:600}
+.dr-actions{display:flex;gap:12px;margin-top:20px}
+.dr-actions .btn{flex:1;justify-content:center}
+.btn-back{background:none;border:1.5px solid var(--line)}
+.btn-back:hover{border-color:var(--ink)}
+/* شاشة النجاح */
+.dr-done{padding:46px 10px;text-align:center}
+.ok-ic{width:78px;height:78px;margin-inline:auto;margin-bottom:22px}
+.ok-ic circle,.ok-ic path{fill:none;stroke:var(--green);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.ok-ic circle{stroke-dasharray:190;stroke-dashoffset:190;animation:draw .7s .1s forwards}
+.ok-ic path{stroke-dasharray:44;stroke-dashoffset:44;animation:draw .45s .65s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.dr-done h3{font-size:1.35rem;margin-bottom:8px;color:var(--green)}
+.dr-done p{color:var(--ink-2);font-size:.93rem;max-width:32ch;margin-inline:auto}
+.ref{display:inline-block;margin-block:16px;font-family:var(--f-head);font-weight:700;background:var(--gold-soft);color:var(--gold-2);border-radius:999px;padding:7px 20px;direction:ltr}
+.ms-line{margin-top:22px;font-size:.85rem;color:var(--ink-2);margin-bottom:10px}
+.btn-ms{background:linear-gradient(135deg,#0084FF,#0068E5);color:#fff;border:none}
+.btn-ms:hover{background:linear-gradient(135deg,#0090FF,#0070F0);transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,104,229,.3)}
+.btn-ms .ms-ic{width:18px;height:18px}
+
+/* ============ لوحة التحكم ============ */
+.drawer.adm{width:480px;z-index:110;background:#F7F3E7}
+.adm-tools{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.adm-tools-row{display:flex;gap:8px;flex-wrap:wrap}
+.adm-mini{border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;font-size:.82rem;font-weight:600;color:var(--ink-2);display:inline-flex;gap:6px;align-items:center;transition:.2s;background:var(--surface)}
+.adm-mini:hover{border-color:var(--ink);color:var(--ink)}
+.adm-mini .lucide{width:14px;height:14px}
+.adm-mini.danger{color:#A0432B;border-color:#E4C9BC}
+.adm-mini.danger:hover{background:#A0432B;border-color:#A0432B;color:#fff}
+.adm-item{display:grid;grid-template-columns:42px 1fr auto;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+.adm-item .p-ic{width:42px;height:42px;border-radius:11px}
+.adm-item .p-ic .lucide{width:20px;height:20px}
+.adm-item h4{font-size:.92rem;font-weight:600}
+.adm-item .meta{font-size:.78rem;color:var(--ink-2)}
+.adm-acts{display:flex;gap:6px}
+.adm-act{width:32px;height:32px;border-radius:9px;border:1.5px solid var(--line);display:grid;place-items:center;transition:.2s;background:var(--surface)}
+.adm-act:hover{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.adm-act .lucide{width:15px;height:15px}
+.adm-act.confirm{background:#A0432B;border-color:#A0432B;color:#fff;width:auto;padding-inline:12px;font-size:.75rem;font-weight:700;border-radius:999px}
+.ipick{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.ipick button{aspect-ratio:1;border:1.5px solid var(--line);border-radius:10px;display:grid;place-items:center;color:var(--ink-2);transition:.15s;background:var(--surface)}
+.ipick button:hover{border-color:var(--gold)}
+.ipick button.on{background:var(--green);border-color:var(--green);color:var(--gold)}
+.ipick .lucide{width:19px;height:19px}
+.check{display:flex;gap:9px;align-items:center;font-size:.88rem;font-weight:600;margin-top:4px}
+.check input{width:17px;height:17px;accent-color:var(--green)}
+#admLogin{padding-top:26px}
+#admLogin .btn{margin-top:6px}
+.adm-hint{font-size:.78rem;color:var(--ink-2);margin-top:14px;line-height:1.8}
+#importBox{background:var(--surface);border:1px dashed var(--gold);border-radius:14px;padding:16px;margin-bottom:16px}
+#importBox textarea{width:100%;min-height:130px;background:#F4EFDF;border:1.5px solid var(--line);border-radius:10px;padding:10px;font-family:monospace;font-size:.78rem;direction:ltr;text-align:left;resize:vertical;outline:none}
+#importBox .adm-tools-row{margin-top:10px}
+.adm-form-actions{display:flex;gap:12px;margin-top:20px}
+.adm-form-actions .btn{flex:1;justify-content:center}
+.adm-tabs{display:flex;gap:6px;margin-bottom:16px;border-bottom:1.5px solid var(--line)}
+.adm-tab{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 6px;background:none;border:none;border-bottom:2.5px solid transparent;margin-bottom:-1.5px;font:inherit;font-weight:700;font-size:.92rem;color:var(--ink-2);cursor:pointer;transition:color .2s,border-color .2s}
+.adm-tab:hover{color:var(--ink)}
+.adm-tab.on{color:var(--green);border-bottom-color:var(--gold)}
+.adm-tab .lucide{width:16px;height:16px}
+.atab-badge{min-width:19px;height:19px;padding:0 5px;border-radius:999px;background:var(--gold);color:#fff;font-size:.72rem;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+.adm-order{border:1px solid var(--line);border-radius:14px;padding:13px 15px;margin-bottom:10px;background:var(--surface)}
+.adm-order.is-done{opacity:.6}
+.ao-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ao-top>b{color:var(--green);font-size:.95rem}
+.ao-src{font-size:.66rem;background:rgba(201,162,39,.15);color:#8a6d14;padding:2.5px 9px;border-radius:999px;font-weight:700}
+.ao-st{margin-inline-start:auto;font-size:.74rem;font-weight:800;color:var(--gold)}
+.adm-order.is-done .ao-st{color:var(--green)}
+.ao-meta{display:inline-flex;align-items:center;gap:4px;font-size:.79rem;color:var(--ink-2);margin-top:4px;text-decoration:none}
+a.ao-meta:hover{color:var(--green)}
+.ao-items{font-size:.87rem;line-height:1.7;margin-top:9px;white-space:pre-line}
+.ao-note{font-size:.8rem;color:var(--ink-2);margin-top:5px}
+.ao-foot{display:flex;align-items:center;gap:10px;margin-top:11px;border-top:1px dashed var(--line);padding-top:9px}
+.ao-foot>b{color:var(--green)}
+.ao-date{font-size:.72rem;color:var(--ink-2)}
+.ao-foot .adm-acts{margin-inline-start:auto}
+
+/* ============ شارات وعروض فارما لاند ============ */
+.p-tag.p-rx{background:#F3DCD2;color:#A0432B;font-weight:700}
+.p-tag.p-offer{background:rgba(201,162,39,.16);color:#8a6d14;font-weight:700}
+.p-add.p-ask{background:linear-gradient(135deg,#C9A227,#A87F1B)}
+.p-add.p-ask:hover{background:linear-gradient(135deg,#D4AE2E,#B4891F);box-shadow:0 10px 24px rgba(168,127,27,.35)}
+.offer-bar{display:flex;align-items:center;gap:12px;background:linear-gradient(120deg,var(--gold-soft),#F7EFC9);border:1.5px solid var(--gold);border-radius:14px;padding:13px 18px;margin-bottom:18px;font-size:.9rem;font-weight:600;color:#6d5410}
+.offer-bar .lucide{width:20px;height:20px;color:var(--gold-2);flex:none}
+.offer-bar b{color:var(--gold-2);font-family:var(--f-head)}
+.btn-ms{background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;border:none}
+.btn-ms:hover{background:linear-gradient(135deg,#2BE373,#14976B);transform:translateY(-2px);box-shadow:0 12px 26px rgba(18,140,126,.3)}
+.fab{background:linear-gradient(135deg,#25D366,#128C7E)}
+
+/* ============ التوست ============ */
+.toasts{position:fixed;bottom:22px;inset-inline-start:22px;z-index:200;display:flex;flex-direction:column;gap:10px}
+.toast{display:flex;align-items:center;gap:11px;background:var(--ink);color:var(--bg);border-radius:14px;padding:12px 18px;font-size:.9rem;font-weight:500;box-shadow:0 14px 34px rgba(12,42,31,.3);opacity:0;transform:translateY(14px);transition:.35s;max-width:min(420px,calc(100vw - 44px))}
+.toast.show{opacity:1;transform:none}
+.t-ic{width:26px;height:26px;border-radius:50%;background:var(--gold);display:grid;place-items:center;flex:none}
+.t-ic .lucide{width:14px;height:14px;color:#241C05}
+</style>
+</head>
+<body id="top">
+
+<!-- الشريط العلوي -->
+<div class="topbar">
+  <div class="container">
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <a class="topbar-item" href="https://wa.me/963946296114" target="_blank" rel="noopener">
+        <svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>
+        واتساب — الطلبات والاستفسار
+      </a>
+      <a class="topbar-item" href="mailto:arejalsham99@gmail.com">
+        <i data-lucide="mail"></i><bdi>arejalsham99@gmail.com</bdi>
+      </a>
+    </div>
+    <div class="topbar-right">
+      <span class="topbar-item"><i data-lucide="clock"></i>الإثنين – السبت: 9 صباحًا – 5 مساءً</span>
+      <span class="topbar-item"><i data-lucide="map-pin"></i>سوريا — دمشق</span>
+    </div>
+  </div>
+</div>
+
+<!-- زر واتساب العائم -->
+<a class="fab" id="fabMs" href="https://wa.me/963946296114" target="_blank" rel="noopener" aria-label="راسلنا على واتساب">
+  <svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>
+  <span class="fab-tip">راسلنا على واتساب</span>
+</a>
+
+<!-- الهيدر -->
+<header class="site" id="siteHeader">
+  <div class="container nav">
+    <a class="logo" href="#top">
+      <span class="logo-mark">
+        <!-- لتبديل الشعار بصورتك الحقيقية: احفظ الشعار باسم logo.png بجانب الملف واستبدل الـ svg بـ <img src="logo.png" style="width:52px;height:52px;border-radius:50%"> -->
+        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#FDFBF4" stroke="#C9A227" stroke-width="2.5"/><path d="M24 37 C 16 31 14.5 21 24 10.5 C 33.5 21 32 31 24 37 Z" fill="#1B5E43"/><path d="M24 34 V 15" stroke="#F0EBD8" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg>
+      </span>
+      <span class="logo-txt"><b>أريج الشام</b><span>المكتب العلمي لمعمل فارما لاند · دمشق</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#top">الرئيسية</a>
+      <a href="#products">المنتجات والأسعار</a>
+      <a href="#why">لماذا نحن</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+    <div style="display:flex;gap:12px;align-items:center">
+      <button class="btn btn-primary nav-cta" id="btnCart">
+        <i data-lucide="shopping-basket"></i>
+        <span class="cart-label">سلة الطلب</span>
+        <span class="cart-badge hide" id="cartBadge">0</span>
+      </button>
+      <button class="icon-btn" id="btnMobile" aria-label="القائمة"><i data-lucide="menu"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- قائمة الموبايل -->
+<div class="mnav" id="mnav">
+  <div class="mnav-head">
+    <a class="logo" href="#top">
+      <span class="logo-mark"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="rgba(248,244,234,.1)" stroke="#C9A227" stroke-width="2.5"/><path d="M24 37 C 16 31 14.5 21 24 10.5 C 33.5 21 32 31 24 37 Z" fill="#C9A227"/></svg></span>
+      <span class="logo-txt"><b>أريج الشام</b><span style="color:rgba(248,244,234,.6)">المكتب العلمي لفارما لاند</span></span>
+    </a>
+    <button class="icon-btn" id="mnavClose" aria-label="إغلاق"><i data-lucide="x"></i></button>
+  </div>
+  <nav>
+    <a href="#top"><em>01</em>الرئيسية</a>
+    <a href="#products"><em>02</em>المنتجات والأسعار</a>
+    <a href="#why"><em>03</em>لماذا نحن</a>
+    <a href="#contact"><em>04</em>تواصل معنا</a>
+  </nav>
+  <div class="mnav-foot">
+    <a class="topbar-item" href="https://wa.me/963946296114" target="_blank" rel="noopener"><svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>واتساب — رسائل فقط</a>
+    <a class="topbar-item" href="mailto:arejalsham99@gmail.com"><i data-lucide="mail"></i><bdi>arejalsham99@gmail.com</bdi></a>
+    <a class="topbar-item" href="https://www.facebook.com/profile.php?id=61595074782822" target="_blank" rel="noopener"><i data-lucide="facebook"></i>صفحتنا على فيسبوك</a>
+  </div>
+</div>
+
+<main>
+  <!-- الهيرو بواجهة الصورة -->
+  <section class="hero">
+    <div class="hero-bg" role="img" aria-label="هاون رخامي مليء بالأعشاب الطبيعية والمستحضرات الصيدلانية على قاعدة ذهبية"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-kicker reveal"><i data-lucide="badge-check"></i>شركة أريج الشام — المكتب العلمي لمعمل فارما لاند</span>
+        <h1 class="reveal" style="--d:.08s">أصناف المعمل أصلية…<br>وبأسعار <span class="hl">رسمية<svg viewBox="0 0 220 14" preserveAspectRatio="none"><path d="M3 10 C 60 2, 160 2, 217 8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span></h1>
+        <p class="lead reveal" style="--d:.16s">أريج الشام هي المكتب العلمي لمعمل فارما لاند في سوريا — نوصل أصناف المعمل من الأدوية إلى المستحضرات الجلدية ومستحضرات الأطفال، مباشرة من المعمل إلى المكتبات والزبائن بكل المناطق. تصفّح الأسعار الرسمية بالليرة السورية واطلب عبر واتساب.</p>
+        <div class="hero-actions reveal" style="--d:.24s">
+          <a class="btn btn-primary" href="#products"><i data-lucide="arrow-left"></i>تصفّح المنتجات والأسعار</a>
+          <a class="btn btn-gold" href="https://wa.me/963946296114" target="_blank" rel="noopener"><svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>اطلب عبر واتساب</a>
+        </div>
+      </div>
+    </div>
+    <!-- شارات عائمة فوق الصورة -->
+    <span class="chip-float cf-1"><i data-lucide="badge-check"></i>أصناف أصلية 100% من المعمل</span>
+    <span class="chip-float cf-2"><i data-lucide="truck"></i>توريد بالجملة لكل المناطق</span>
+    <!-- شريط الصورة للموبايل -->
+    <div class="hero-strip" aria-hidden="true"></div>
+  </section>
+
+  <!-- خط النمو الذهبي -->
+  <div class="grow" aria-hidden="true">
+    <svg viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <path id="growPath" d=""/>
+      <circle r="4.5" fill="#C9A227">
+        <animateMotion dur="11s" repeatCount="indefinite"><mpath href="#growPath" xlink:href="#growPath"/></animateMotion>
+      </circle>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><div class="stat-num"><b data-count="70">0</b><span>+</span></div><p>صنف دوائي ومستحضر من المعمل</p></div>
+      <div class="stat"><div class="stat-num"><b data-count="7">0</b></div><p>فئات علاجية رئيسية</p></div>
+      <div class="stat"><div class="stat-num"><b data-count="24">0</b></div><p>ساعة — أقصى مدة للرد على طلبك</p></div>
+      <div class="stat"><div class="stat-num"><b data-count="100">0</b><span>%</span></div><p>أصلي من معمل فارما لاند</p></div>
+    </div>
+  </div>
+
+  <!-- شريط متحرك -->
+  <div class="marquee" aria-hidden="true">
+    <div class="mq-track" id="mqTrack"></div>
+  </div>
+
+  <!-- الكتالوج -->
+  <section class="sec" id="products">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div>
+          <span class="sec-index">01</span>
+          <h2>المنتجات <span>والأسعار</span></h2>
+        </div>
+        <p class="sec-sub">اضغط على أي صنف لعرض تفاصيله، وأضفه إلى سلة الطلب بضغطة واحدة — أو استفسر عن سعره عبر واتساب.</p>
+      </div>
+      <div class="tools reveal">
+        <label class="search"><i data-lucide="search"></i><input type="text" id="searchInput" placeholder="ابحث باسم المنتج أو الفئة…"></label>
+        <span id="prodCount"></span>
+      </div>
+      <div class="chips reveal" id="chips" style="--d:.08s"></div>
+      <div class="offer-bar reveal" style="--d:.12s"><i data-lucide="gift"></i><span>عرض الشهر من معمل فارما لاند: <b>11+10</b> — مع كل 10 عبوات تُضاف 11 عبوة هدية على الأصناف المشمولة بالعرض · التفاصيل عبر واتساب</span></div>
+      <div class="plist" id="prodList"></div>
+      <p class="cat-note reveal"><i data-lucide="info"></i>الأسعار بالليرة السورية — قائمة معمل فارما لاند الرسمية المعدّلة (تشرين الأول 2026) وقابلة للتحديث وفق إعلان المعمل. أرقام الهدايا (مثل 2+10) كما وردت في القائمة الرسمية · معلومات الأصناف لغرض التعريف ولا تغني عن النشرة الداخلية أو استشارة الطبيب.</p>
+    </div>
+  </section>
+
+  <!-- لماذا نحن -->
+  <section class="sec why" id="why">
+    <div class="container why-grid">
+      <div class="why-intro reveal">
+        <span class="sec-index">02</span>
+        <h2>لماذا تختارنا المكتبات والزبائن؟</h2>
+        <p>أريج الشام هي المكتب العلمي لمعمل فارما لاند في سوريا — ننقل أصناف المعمل من خط الإنتاج إلى المكتبات ونقاط البيع والزبائن بكل المناطق، بأسعار رسمية معلنة ودعم علمي كامل.</p>
+      </div>
+      <div>
+        <div class="why-item reveal"><em>01</em><div><h3>من المعمل مباشرة</h3><p>نستلم الأصناف من معمل فارما لاند بدون وسيط — أصالة مضمونة 100% وأحدث تواريخ الإنتاج.</p></div></div>
+        <div class="why-item reveal" style="--d:.08s"><em>02</em><div><h3>أسعار رسمية معلنة</h3><p>قائمة الأسعار الرسمية المعدّلة أمامك بالتفصيل، مع عروض الهدايا المعتمدة لكل صنف وعرض الشهر على الأصناف المشمولة.</p></div></div>
+        <div class="why-item reveal" style="--d:.16s"><em>03</em><div><h3>دعم علمي ومعلومات كاملة</h3><p>شرح مختصر لكل صنف وشكله الصيدلاني واستخداماته — ونرد على أي استفسار علمي عبر واتساب المكتب العلمي.</p></div></div>
+        <div class="why-item reveal" style="--d:.24s"><em>04</em><div><h3>توريد بالجملة لكل المناطق</h3><p>نخدم المكتبات والمخازن ونقاط البيع في كل الوجهات — أرسل قائمتك كاملة عبر واتساب وبتنجهز لك.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- التواصل -->
+  <section class="sec" id="contact">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div>
+          <span class="sec-index">03</span>
+          <h2>راسلنا على <span>واتساب</span></h2>
+        </div>
+        <p class="sec-sub">عندك صيدلية أو نقطة بيع أو قائمة مشتريات كبيرة؟ أرسل طلبك عبر واتساب وسيرد عليك مختص خلال ساعات العمل — واتساب فقط، ممنوع المكالمات.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <ul class="c-info">
+            <li>
+              <svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>
+              <div><h4>واتساب — محادثة فورية</h4><p><a class="link" href="https://wa.me/963946296114" target="_blank" rel="noopener">واتساب: 0946 296 114 <i data-lucide="arrow-up-left"></i></a></p></div>
+            </li>
+            <li>
+              <i data-lucide="facebook"></i>
+              <div><h4>صفحتنا على فيسبوك</h4><p><a class="link" href="https://www.facebook.com/profile.php?id=61595074782822" target="_blank" rel="noopener">أريج الشام على فيسبوك <i data-lucide="arrow-up-left"></i></a></p></div>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <div><h4>البريد الإلكتروني</h4><p><a class="link" href="mailto:arejalsham99@gmail.com">arejalsham99@gmail.com <i data-lucide="arrow-up-left"></i></a></p></div>
+            </li>
+            <li>
+              <i data-lucide="map-pin"></i>
+              <div><h4>العنوان</h4><p>سوريا — دمشق</p></div>
+            </li>
+            <li>
+              <i data-lucide="clock"></i>
+              <div><h4>ساعات الرد على الرسائل</h4><p>الإثنين – السبت: 9 صباحًا – 5 مساءً</p></div>
+            </li>
+          </ul>
+          <div class="c-note"><i data-lucide="phone-off"></i>واتساب فقط — ممنوع المكالمات الهاتفية</div>
+        </div>
+        <form class="c-form reveal" id="contactForm" style="--d:.1s" novalidate>
+          <h3>أرسل استفسارك</h3>
+          <p>عبّي النموذج واضغط إرسال — بنفتحلك واتساب ورسالتك جاهزة للإرسال.</p>
+          <div class="f-grid">
+            <div class="field"><label>الاسم الكامل *</label><input type="text" name="cName" placeholder="مثال: أبو أحمد"><small class="err-msg">الرجاء إدخال الاسم</small></div>
+            <div class="field"><label>جهة العمل</label><input type="text" name="cOrg" placeholder="صيدلية / مخزن / متجر"></div>
+            <div class="field"><label>البريد الإلكتروني</label><input type="email" name="cMail" placeholder="name@example.com"></div>
+            <div class="field"><label>رقم الهاتف (اختياري)</label><input type="tel" name="cPhone" placeholder="للتوصيل فقط — اختياري"></div>
+            <div class="field full"><label>رسالتك</label><textarea rows="4" name="cMsg" placeholder="اكتب تفاصيل احتياجك، الكميات، أو أي ملاحظات…"></textarea></div>
+          </div>
+          <button type="submit" class="btn btn-ms"><svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>إرسال عبر واتساب</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- الفوتر -->
+<footer class="site">
+  <div class="container">
+    <div class="f-top">
+      <div>
+        <a class="logo" href="#top">
+          <span class="logo-mark"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="rgba(248,244,234,.1)" stroke="#C9A227" stroke-width="2.5"/><path d="M24 37 C 16 31 14.5 21 24 10.5 C 33.5 21 32 31 24 37 Z" fill="#C9A227"/></svg></span>
+          <span class="logo-txt"><b>أريج الشام</b><span style="color:rgba(248,244,234,.6)">المكتب العلمي لفارما لاند</span></span>
+        </a>
+        <p class="about">أريج الشام — المكتب العلمي لمعمل فارما لاند في سوريا: أدوية ومستحضرات جلدية ومستحضرات أطفال بأسعار رسمية من المعمل، من المعمل إليك مباشرة.</p>
+      </div>
+      <div>
+        <h5>أقسام الكتالوج</h5>
+        <ul>
+          <li><a data-cat="pain">المسكنات وخوافض الحرارة</a></li>
+          <li><a data-cat="cold">البرد والسعال وقطرات الأنف</a></li>
+          <li><a data-cat="abx">المضادات الحيوية</a></li>
+          <li><a data-cat="kids">مستحضرات الأطفال والرضّع</a></li>
+          <li><a data-cat="skin">الجلدية والعناية</a></li>
+          <li><a data-cat="derm">مطهرات وزيوت جلدية</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>روابط سريعة</h5>
+        <ul>
+          <li><a href="#top">الرئيسية</a></li>
+          <li><a href="#products">المنتجات والأسعار</a></li>
+          <li><a href="#why">لماذا نحن</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>تواصل معنا — واتساب فقط</h5>
+        <ul>
+          <li class="tl"><svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg><a href="https://wa.me/963946296114" target="_blank" rel="noopener">واتساب — ابدأ المحادثة</a></li>
+          <li class="tl"><i data-lucide="mail"></i><a href="mailto:arejalsham99@gmail.com">arejalsham99@gmail.com</a></li>
+          <li class="tl"><i data-lucide="facebook"></i><a href="https://www.facebook.com/profile.php?id=61595074782822" target="_blank" rel="noopener">صفحتنا على فيسبوك</a></li>
+          <li class="tl"><i data-lucide="phone-off"></i>واتساب فقط — ممنوع المكالمات</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 أريج الشام — جميع الحقوق محفوظة.</span>
+      <a class="dev-credit" id="devCredit" href="https://t.me/Eng_tulip" target="_blank" rel="noopener">Created by <b>Tulip ALI</b><svg class="tg-ic" viewBox="0 0 24 24"><path d="M21.9 4.6c.2-1.1-.8-2-1.9-1.6L2.7 9.7c-1.1.4-1.1 2 0 2.4l4.6 1.5 1.7 5.5c.3 1 1.6 1.3 2.3.5l2.6-2.7 4.5 3.3c.9.7 2.2.2 2.4-.9l2.1-14.7z"/></svg></a>
+      <button class="adm-entry" id="adminEntry"><i data-lucide="lock"></i>لوحة التحكم</button>
+    </div>
+  </div>
+</footer>
+
+<!-- درج طلب عرض السعر -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="dr-head">
+    <div><h3>سلة الطلب</h3><p id="drCount">لا أصناف بعد</p></div>
+    <button class="icon-btn" id="drClose" aria-label="إغلاق"><i data-lucide="x"></i></button>
+  </div>
+  <div class="dr-body">
+    <div id="viewCart">
+      <div class="dr-empty hide" id="drEmpty">
+        <i data-lucide="shopping-basket"></i>
+        <p>سلة الطلب فارغة.<br>أضف منتجات من الكتالوج لتبدأ طلبك.</p>
+        <button class="btn btn-gold" id="btnBrowse"><i data-lucide="arrow-left"></i>تصفّح المنتجات</button>
+      </div>
+      <div id="cartItems"></div>
+    </div>
+    <div class="dr-form hide" id="viewForm">
+      <div class="dr-summary"><span id="sumCount"></span><b id="sumTotal"></b></div>
+      <form id="orderForm" novalidate>
+        <div class="f-grid">
+          <div class="field"><label>الاسم الكامل *</label><input type="text" name="fName" placeholder="اسم المسؤول عن الشراء"><small class="err-msg">الرجاء إدخال الاسم</small></div>
+          <div class="field"><label>جهة العمل *</label><input type="text" name="fOrg" placeholder="صيدلية / مخزن / متجر"><small class="err-msg">الرجاء إدخال جهة العمل</small></div>
+          <div class="field full"><label>البريد الإلكتروني</label><input type="email" name="fMail" placeholder="اختياري"></div>
+          <div class="field full"><label>رقم الهاتف (اختياري)</label><input type="tel" name="fPhone" placeholder="للتوصيل فقط — اختياري"></div>
+          <div class="field full"><label>ملاحظات على الطلب</label><textarea rows="3" name="fNotes" placeholder="كميات خاصة، موعد تسليم مفضل…"></textarea></div>
+        </div>
+        <div class="dr-actions">
+          <button type="button" class="btn btn-back" id="btnBackToCart"><i data-lucide="arrow-right"></i>رجوع</button>
+          <button type="submit" class="btn btn-primary"><i data-lucide="check"></i>تأكيد الطلب</button>
+        </div>
+      </form>
+    </div>
+    <div class="dr-done hide" id="viewDone">
+      <svg class="ok-ic" viewBox="0 0 64 64"><circle cx="32" cy="32" r="29"/><path d="M20 33 l8 8 l16 -17"/></svg>
+      <h3>تم تجهيز طلبك</h3>
+      <span class="ref" id="refNum">SR-0000</span>
+      <p>أرسل تفاصيل طلبك عبر واتساب — وسنرد عليك بالتأكيد والتوفر خلال ساعات العمل.</p>
+      <p class="ms-line">اضغط الزر — بنفتحلك واتساب وطلبك جاهز للإرسال:</p>
+      <button class="btn btn-ms" id="msSend"><svg class="ms-ic" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.246-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a11.645 11.645 0 01-8.213-3.574 11.645 11.645 0 01-3.574-8.213c0-3.22 1.257-6.247 3.574-8.213a11.645 11.645 0 018.213-3.574h.004c3.22 0 6.247 1.257 8.213 3.574a11.645 11.645 0 013.574 8.213c0 3.22-1.257 6.247-3.574 8.213a11.645 11.645 0 01-8.213 3.574z"/></svg>إرسال الطلب عبر واتساب</button>
+      <br><button class="btn btn-primary" id="btnDoneClose" style="margin-top:16px">إغلاق</button>
+    </div>
+  </div>
+  <div class="dr-foot" id="drFoot">
+    <div class="dr-total"><span>الإجمالي التقديري</span><strong id="drTotal">$0</strong></div>
+    <p class="dr-note">الأسعار رسمية من قائمة المعمل — تأكيد التوفر والكميات يصلك عبر واتساب.</p>
+    <button class="btn btn-primary btn-block" id="btnToForm"><i data-lucide="arrow-left"></i>إكمال بيانات الطلب</button>
+  </div>
+</aside>
+
+<!-- لوحة التحكم -->
+<aside class="drawer adm" id="admDrawer" aria-hidden="true">
+  <div class="dr-head">
+    <div><h3>لوحة التحكم</h3><p id="admSub">إدارة المنتجات والأسعار</p></div>
+    <button class="icon-btn" id="admClose" aria-label="إغلاق"><i data-lucide="x"></i></button>
+  </div>
+  <div class="dr-body">
+    <!-- تسجيل الدخول -->
+    <div id="admLogin" class="hide">
+      <h3 style="font-size:1.15rem;margin-bottom:6px;color:var(--green)">مرحبًا بك 👋</h3>
+      <p style="font-size:.9rem;color:var(--ink-2);margin-bottom:18px">هذه المنطقة مخصصة لإدارة الشركة فقط.</p>
+      <div class="field"><label>كلمة السر</label><input type="password" id="admPass" placeholder="أدخل كلمة السر"><small class="err-msg">كلمة السر غير صحيحة</small></div>
+      <button class="btn btn-primary btn-block" id="btnLogin"><i data-lucide="unlock"></i>دخول</button>
+      <p class="adm-hint">💡 كلمة السر الافتراضية موجودة داخل الكود — ابحث عن ADMIN_PASS وغيّرها فورًا بعد أول دخول.</p>
+    </div>
+    <!-- قائمة المنتجات -->
+    <div id="admPanel" class="hide">
+      <div class="adm-tabs">
+        <button type="button" class="adm-tab on" data-atab="products"><i data-lucide="package"></i>المنتجات</button>
+        <button type="button" class="adm-tab" data-atab="orders"><i data-lucide="clipboard-list"></i>الطلبات<span class="atab-badge hide" id="ordBadge">0</span></button>
+      </div>
+      <div id="tabProducts">
+      <div class="adm-tools">
+        <button class="btn btn-primary btn-sm" id="btnAdd"><i data-lucide="plus"></i>إضافة منتج جديد</button>
+        <div class="adm-tools-row">
+          <button class="adm-mini" id="btnExport"><i data-lucide="download"></i>تصدير نسخة</button>
+          <button class="adm-mini" id="btnImport"><i data-lucide="upload"></i>استيراد نسخة</button>
+          <button class="adm-mini danger" id="btnResetDef"><i data-lucide="rotate-ccw"></i>استعادة الافتراضي</button>
+          <button class="adm-mini" id="btnLogout"><i data-lucide="log-out"></i>خروج</button>
+        </div>
+      </div>
+      <div id="importBox" class="hide">
+        <label style="font-size:.84rem;font-weight:600">الصق محتوى ملف النسخة الاحتياطية (JSON):</label>
+        <textarea id="importText" placeholder='[{"name":"...","price":10,...}]'></textarea>
+        <div class="adm-tools-row">
+          <button class="adm-mini" id="btnImportOk"><i data-lucide="check"></i>تأكيد الاستيراد</button>
+          <button class="adm-mini" id="btnImportNo"><i data-lucide="x"></i>إلغاء</button>
+        </div>
+      </div>
+      <div id="admList"></div>
+      </div>
+      <div id="tabOrders" class="hide">
+        <div class="adm-tools">
+          <button type="button" class="btn btn-primary btn-sm" id="btnAddOrder"><i data-lucide="plus"></i>تسجيل طلب جديد</button>
+          <div class="adm-tools-row">
+            <button type="button" class="adm-mini" id="btnOrdersExport"><i data-lucide="download"></i>تصدير الطلبات</button>
+          </div>
+        </div>
+        <div id="ordBox" class="hide">
+          <form id="orderManualForm" novalidate>
+            <div class="f-grid">
+              <div class="field"><label>اسم الزبون *</label><input type="text" id="ofName" placeholder="اسم الزبون"><small class="err-msg">الرجاء إدخال الاسم</small></div>
+              <div class="field"><label>رقم الهاتف</label><input type="tel" id="ofPhone" placeholder="اختياري"></div>
+              <div class="field"><label>جهة العمل</label><input type="text" id="ofOrg" placeholder="اختياري"></div>
+              <div class="field"><label>الإجمالي (ل.س)</label><input type="number" id="ofTotal" min="0" step="1" placeholder="مثال: 7000"></div>
+              <div class="field full"><label>تفاصيل الطلب *</label><textarea id="ofItems" rows="3" placeholder="مثال: زيت الحبة السوداء × 2، عسل السدر × 1"></textarea><small class="err-msg">الرجاء إدخال تفاصيل الطلب</small></div>
+              <div class="field full"><label>ملاحظات</label><input type="text" id="ofNote" placeholder="اختياري"></div>
+            </div>
+            <div class="adm-form-actions">
+              <button type="button" class="btn btn-back" id="btnCancelOrd">إلغاء</button>
+              <button type="submit" class="btn btn-primary"><i data-lucide="save"></i>حفظ الطلب</button>
+            </div>
+          </form>
+        </div>
+        <p class="adm-hint">💡 الطلبات اللي بتوصلك عبر واتساب سجّليها هون لتتابعي حالتها — كل شي محفوظ بهذا المتصفح.</p>
+        <div id="ordList"></div>
+      </div>
+    </div>
+    <!-- نموذج إضافة/تعديل منتج -->
+    <div id="admForm" class="hide">
+      <h3 id="admFormTitle" style="font-size:1.15rem;margin-bottom:14px;color:var(--green)">إضافة منتج جديد</h3>
+      <form id="productForm" novalidate>
+        <div class="f-grid">
+          <div class="field"><label>اسم المنتج *</label><input type="text" id="pfName" placeholder="مثال: زيت الحبة السوداء"><small class="err-msg">الرجاء إدخال اسم المنتج</small></div>
+          <div class="field"><label>الفئة</label><select id="pfCat"></select></div>
+          <div class="field"><label>السعر بالليرة السورية</label><input type="number" id="pfPrice" min="0" step="1" placeholder="مثال: 7000 — اتركه فارغًا إذا كان حسب الطلب"><small class="err-msg">أدخل سعرًا صحيحًا أكبر من صفر</small></div>
+          <div class="field"><label>وحدة البيع</label><input type="text" id="pfUnit" placeholder="علبة / زجاجة / كرتون…"></div>
+          <div class="field full"><label>وصف قصير</label><input type="text" id="pfDesc" placeholder="سطر واحد يظهر تحت اسم المنتج"></div>
+          <div class="field full"><label>أيقونة المنتج</label><div class="ipick" id="pfIcons"></div></div>
+          <div class="field full"><label>المواصفات (سطر لكل مواصفة)</label><textarea id="pfSpecs" rows="4" placeholder="100 كبسولة&#10;خالٍ من المواد الحافظة&#10;شهادة تحليل لكل دفعة"></textarea></div>
+          <div class="field full"><label class="check"><input type="checkbox" id="pfFrom">عرض السعر بصيغة «يبدأ من»</label></div>
+          <div class="field full"><label class="check"><input type="checkbox" id="pfNew">شارة «جديد» على المنتج</label></div>
+        </div>
+        <div class="adm-form-actions">
+          <button type="button" class="btn btn-back" id="btnCancelP">إلغاء</button>
+          <button type="submit" class="btn btn-primary"><i data-lucide="save"></i>حفظ المنتج</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</aside>
+
+<!-- التوست -->
+<div class="toasts" id="toasts"></div>
+
+<script>
+/* ═══════════════════════════════════════════════════════
+   الإعدادات — عدّل القيم التالية فقط
+═══════════════════════════════════════════════════════ */
+const ADMIN_PASS = 'areej2025';                                              // ← كلمة سر لوحة التحكم
+const EMAIL      = 'arejalsham99@gmail.com';                                 // ← البريد الإلكتروني للتواصل
+const FACEBOOK_PAGE  = 'https://www.facebook.com/profile.php?id=61595074782822'; // صفحة فيسبوك
+const WHATSAPP_NUMBER  = '963946296114';                                     // ← واتساب الطلبات (صيغة دولية: 0946296114)
+const WHATSAPP_DISPLAY = '0946 296 114';                                     // ← الرقم المعروض للزبائن
+const MONTH_OFFER      = '11+10';                                            // ← عرض الشهر الحالي من المعمل
+const TELEGRAM_LINK = 'https://t.me/Eng_tulip';                              // ← تيليغرام (توقيع المطوّرة)
+
+/* ============ الفئات ============ */
+const CATS = [
+  {id:'pain', name:'المسكنات وخوافض الحرارة'},
+  {id:'cold', name:'البرد والسعال وقطرات الأنف'},
+  {id:'abx', name:'المضادات الحيوية'},
+  {id:'digest', name:'الجهاز الهضمي والمغص'},
+  {id:'kids', name:'مستحضرات الأطفال والرضّع'},
+  {id:'skin', name:'الجلدية والعناية'},
+  {id:'rx', name:'أدوية بوصفة طبية'},
+  {id:'syr', name:'شرابات وأدوية داخلية'},
+  {id:'caps', name:'كبسولات ومحاليل طبية'},
+  {id:'derm', name:'مطهرات وزيوت جلدية'},
+];
+
+/* الأيقونات المتاحة في لوحة التحكم */
+const ICONS = ['leaf','sprout','flower','pill','apple','droplets','flask-conical','test-tubes','microscope','syringe','bandage','stethoscope','thermometer','heart-pulse','activity','shield-plus','sparkles','package','box','spray-can','sun','wind','zap','briefcase-medical','gauge','hexagon','candy','gift','coffee','cake'];
+
+/* ============ المنتجات الافتراضية (تُستبدل تلقائيًا بما تحفظه من لوحة التحكم) ============ */
+const SEED_PRODUCTS = [
+  {id:1, cat:'pain', icon:'pill', name:'فارما زون', desc:'باراسيتامول 600 ملغ + كلورزوكسازون 150 ملغ — مسكن للألم ومريح للعضلات والشدات وآلام الظهر.', price:null, unit:'علبة 20 كبسولة', specs:['كبسولات','مسكن ومريح عضلي مركّب','السعر والطلب عبر واتساب المكتب العلمي']},
+  {id:2, cat:'pain', icon:'pill', name:'بانادول لاند', desc:'باراسيتامول مسكن للألم وخافض للحرارة: صداع، آلام أسنان وعضلات، وحمى.', price:7000, unit:'علبة 24 قرصًا', specs:['أقراص'], offer:'2/10'},
+  {id:3, cat:'pain', icon:'droplets', name:'نيوسيدول لاند', desc:'نيميسوليد 50 ملغ/5 مل — مسكن للألم وخافض للحرارة في الحالات الحادة قصيرة الأمد.', price:10600, unit:'عبوة 100 مل', specs:['معلق فموي'], offer:'5/10'},
+  {id:4, cat:'pain', icon:'droplets', name:'بين رون لاند', desc:'شراب باراسيتامول مسكن للألم وخافض للحرارة: صداع، آلام مختلفة، وحمى.', price:10900, unit:'عبوة 100 مل', specs:['شراب'], offer:'4/10'},
+  {id:5, cat:'pain', icon:'box', name:'باراسيتامول لاند 500', desc:'أقراص باراسيتامول 500 ملغ خافضة للحرارة ومسكنة للصداع وآلام الأسنان والعضلات.', price:104100, unit:'بوكس 50 ظرف', specs:['أقراص — علبة 50 قرصًا','السعر المعروض للبوكس الكامل'], offer:'2/10'},
+  {id:6, cat:'pain', icon:'bandage', name:'فيكس لاند — بلسم الآلام', desc:'ساليسيلات الميثيل + منثول + كافور لآلام الظهر والمفاصل والعضلات والروماتيزم — بلسم تدليك خارجي.', price:11030, unit:'علبة 50 غ', specs:['كريم تدليك خارجي'], offer:'4/10'},
+  {id:7, cat:'pain', icon:'droplets', name:'بروفي سيتامول', desc:'معلق خافض للحرارة ومضاد للالتهاب غير ستيرويدي — مخصص للأطفال حسب النشرة.', price:11100, unit:'عبوة 100 مل', specs:['معلق فموي'], offer:'5/10'},
+  {id:8, cat:'cold', icon:'pill', name:'بانادول لاند كولد آند فلو — نهاري', desc:'لأعراض الرشح والإنفلونزا النهارية: احتقان وسيلان الأنف، صداع، آلام جسم، وحرارة.', price:8500, unit:'علبة 24 قرصًا', specs:['أقراص'], offer:'2/10'},
+  {id:9, cat:'cold', icon:'droplets', name:'كولد لاند سي — شراب الأطفال', desc:'شراب أطفال خافض للحرارة ومخفف للسيلان الأنفي ومفيد في أعراض الرشح.', price:8400, unit:'عبوة 100 مل', specs:['شراب'], offer:'3/10'},
+  {id:10, cat:'cold', icon:'droplets', name:'بيكتوماكس لاند', desc:'شراب للسعال واحتقان الأنف والصدر — يساعد على طرح البلغم ويمنح راحة.', price:12100, unit:'عبوة 100 مل', specs:['شراب'], offer:'4/10'},
+  {id:11, cat:'cold', icon:'droplets', name:'سي سيروم لاند — قطرات أنفية', desc:'قطرات أنفية لترطيب الغشاء المخاطي وتخفيف الجفاف ونظافة الأنف اليومية.', price:4800, unit:'عبوة 15 مل', specs:['قطرات أنفية'], offer:'2/10'},
+  {id:12, cat:'abx', icon:'flask-conical', name:'أوجمنتا لاند 156', desc:'أموكسيسيلين + حمض الكلاڤولانيك 156.25 ملغ — لالتهابات الأذن والجيوب واللوزتين والصدر والجلد.', price:18700, unit:'60 مل بعد التحضير', specs:['مسحوق لتحضير معلق فموي'], offer:'10/10'},
+  {id:13, cat:'abx', icon:'flask-conical', name:'أزيترو لاند 200 — عبوة 15 مل', desc:'أزيثرومايسين 200 ملغ/5 مل — لالتهابات الجهاز التنفسي والحلق والأذن الوسطى والجلد.', price:10400, unit:'عبوة 15 مل', specs:['مسحوق لتحضير معلق فموي'], offer:'4/10'},
+  {id:14, cat:'abx', icon:'flask-conical', name:'أزيترو لاند 200 — عبوة 30 مل', desc:'أزيثرومايسين 200 ملغ/5 مل — لالتهابات الجهاز التنفسي والحلق والأذن الوسطى والجلد.', price:15900, unit:'عبوة 30 مل', specs:['مسحوق لتحضير معلق فموي'], offer:'4/10'},
+  {id:15, cat:'abx', icon:'flask-conical', name:'أوجمنتا لاند 457', desc:'أموكسيسيلين + حمض الكلاڤولانيك 457 ملغ/5 مل — التركيز الأقوى لالتهابات متنوعة.', price:24200, unit:'60 مل بعد التحضير', specs:['مسحوق لتحضير معلق فموي'], offer:'9/10'},
+  {id:16, cat:'digest', icon:'pill', name:'لانسوبرال لاند 30', desc:'كبسولات معوية 30 ملغ — لقرحة المعدة والاثني عشر والارتجاع والحموضة والزجرة.', price:9200, unit:'علبة 20 كبسولة', specs:['كبسولات معوية صلبة'], offer:'3/10'},
+  {id:17, cat:'digest', icon:'droplets', name:'فلاجيل لاند', desc:'ميترونيدازول معلق — للإسهالات والزحار المعدية والأميبا والجياردية.', price:11900, unit:'عبوة 100 مل', specs:['معلق فموي'], offer:'5/10'},
+  {id:18, cat:'digest', icon:'droplets', name:'روستروبينال لاند', desc:'نقاط فموية لتشنجات المعدة والأمعاء والمغص والانتفاخ وعسر الهضم.', price:null, unit:'عبوة 25 مل', specs:['نقاط فموية للأطفال','السعر والطلب عبر واتساب المكتب العلمي']},
+  {id:19, cat:'kids', icon:'droplets', name:'كيدي لاند مع الزنك', desc:'تعويض السوائل والأملاح المفقودة مع الإسهال والجفاف عند الأطفال — مع الزنك الداعم للتعافي.', price:null, unit:'عبوة 280 مل', specs:['محلول فموي جاهز','متوفر: عبوة 280 مل وعبوة 250 مل بنكهة الموز','السعر والطلب عبر واتساب المكتب العلمي']},
+  {id:20, cat:'kids', icon:'droplets', name:'إنفاكون لاند — سيميثيكون', desc:'سيميثيكون لتخفيف الغازات والانتفاخ والمغص عند الرضّع والأطفال.', price:7000, unit:'عبوة 25 مل', specs:['نقاط فموية للرضّع'], offer:'2/10'},
+  {id:21, cat:'kids', icon:'droplets', name:'بروفين شراب للأطفال 100 ملغ', desc:'إيبوبروفين خافض للحرارة ومسكن ومضاد للالتهاب عند الأطفال — تركيز 100 ملغ/5 مل.', price:10600, unit:'عبوة 100 مل', specs:['شراب للأطفال'], offer:'6/10'},
+  {id:22, cat:'kids', icon:'droplets', name:'بروفين شراب للأطفال 200 ملغ', desc:'إيبوبروفين خافض للحرارة ومسكن ومضاد للالتهاب عند الأطفال — تركيز 200 ملغ/5 مل.', price:10800, unit:'عبوة 100 مل', specs:['شراب للأطفال'], offer:'5/10'},
+  {id:23, cat:'kids', icon:'droplets', name:'تيمبرا لاند — نقاط الرضّع', desc:'باراسيتامول 100 ملغ/1 مل — نقاط للرضّع: التسنين، ما بعد التطعيم، الصداع والحرارة.', price:7700, unit:'عبوة 25 مل', specs:['نقاط فموية للرضّع'], offer:'1/10'},
+  {id:24, cat:'kids', icon:'droplets', name:'بيبي كالم لاند', desc:'شراب للحالات التحسسية عند الأطفال المصحوبة بتململ وصعوبة نوم — حسب تقييم الطبيب.', price:7700, unit:'عبوة 100 مل', specs:['شراب'], offer:'3/10'},
+  {id:25, cat:'skin', icon:'bandage', name:'كريم بيرمثرين 5% للكبار', desc:'كريم بيرمثرين 5% لعلاج الجرب (الإسكابس) والإصابات الطفيلية السطحية للجلد.', price:10000, unit:'أنبوب 30 غ', specs:['كريم'], offer:'5/10'},
+  {id:26, cat:'skin', icon:'sparkles', name:'بيوتي هير — كريم للشعر', desc:'كريم مخصص للعناية بالشعر — التفاصيل الكاملة حسب النشرة الداخلية.', price:null, unit:'علبة 50 غ', specs:['كريم للشعر','السعر والطلب عبر واتساب المكتب العلمي']},
+  {id:27, cat:'skin', icon:'sparkles', name:'كريم هيدروكينون 2%', desc:'كريم تفتيح مع فيتامين C — للكلف والنمش وبقع الحمل وتوحيد لون البشرة.', price:9600, unit:'علبة 30 غ', specs:['كريم — تركيز 2%'], offer:'5/10'},
+  {id:28, cat:'skin', icon:'sparkles', name:'كريم هيدروكينون 4%', desc:'كريم تفتيح مع فيتامين C — للكلف والنمش وبقع الحمل وتوحيد لون البشرة.', price:10800, unit:'علبة 30 غ', specs:['كريم — تركيز 4%'], offer:'5/10'},
+  {id:29, cat:'skin', icon:'bandage', name:'كريم الصدفية', desc:'كريم يساعد على علاج الصدفية والأكزيما وحبوب الجلد وتهيّجات.', price:32000, unit:'علبة 50 غ', specs:['كريم'], offer:'5/10'},
+  {id:30, cat:'skin', icon:'droplets', name:'بنزيل بنزوات 25%', desc:'مستحلب خارجي 25% لعلاج الجرب (الإسكابس) والقمل.', price:7400, unit:'عبوة 100 مل', specs:['غسول خارجي'], offer:'3/10'},
+  {id:31, cat:'skin', icon:'bandage', name:'كريم الحروق', desc:'كريم للحروق البسيطة وحروق الشمس والجروح السطحية — ينظف ويرطب ويساعد على تجديد الجلد.', price:null, unit:'علبة 30 غ', specs:['كريم','السعر والطلب عبر واتساب المكتب العلمي']},
+  {id:32, cat:'skin', icon:'bandage', name:'بانثينول لاند', desc:'بروفيتامين B5 مع فيتامين E — يساعد على شفاء الحروق والجروح وترطيب البشرة وتجديدها.', price:18500, unit:'علبة 30 غ', specs:['كريم'], offer:'8/10'},
+  {id:33, cat:'skin', icon:'flower', name:'كريم البابونج', desc:'كريم مطهر ومهدئ للجلد — يساعد على التشققات والحروق الخفيفة وتهيّجات البشرة.', price:12500, unit:'علبة 50 غ', specs:['كريم'], offer:'4/10'},
+  {id:34, cat:'rx', icon:'droplets', name:'بردلون لاند', desc:'بردنيزولون (كورتيكوستيرويد) للحالات الالتهابية والتحسسية التي يحددها الطبيب.', price:null, unit:'عبوة 100 مل', specs:['شراب — بوصفة طبية فقط','السعر والطلب عبر واتساب المكتب العلمي'], rx:true},
+  {id:35, cat:'rx', icon:'droplets', name:'دكسا لاند', desc:'إكسير يُصرَف بوصفة طبية فقط — حسب ما هو محدد في النشرة الداخلية.', price:7900, unit:'عبوة 100 مل', specs:['إكسير — بوصفة طبية فقط'], offer:'2/10', rx:true},
+  {id:36, cat:'syr', icon:'flask-conical', name:'أوجمنتا لاند 312 — شراب جلف', desc:'أموكسيسيلين + حمض الكلاڤولانيك بتركيز متوسط — لالتهابات الأذن والجيوب والصدر.', price:21500, unit:'عبوة جلف', specs:['شراب جلف'], offer:'9/10'},
+  {id:37, cat:'syr', icon:'flask-conical', name:'أموكسيسيلين 250 — شراب جلف', desc:'مضاد حيوي واسع الطيف من البنسلينات — شراب أطفال 250 ملغ.', price:10200, unit:'عبوة جلف', specs:['شراب جلف'], offer:'2/10'},
+  {id:38, cat:'syr', icon:'flask-conical', name:'أموكسيسيلين 125 — شراب جلف', desc:'مضاد حيوي واسع الطيف من البنسلينات — شراب أطفال 125 ملغ.', price:9800, unit:'عبوة جلف', specs:['شراب جلف'], offer:'3/10'},
+  {id:39, cat:'syr', icon:'droplets', name:'تيمبرا لاند شراب', desc:'باراسيتامول مسكن وخافض للحرارة — شراب الأطفال.', price:8000, unit:'عبوة 100 مل', specs:['شراب'], offer:'1/10'},
+  {id:40, cat:'syr', icon:'droplets', name:'بيبي كول لاند شراب', desc:'شراب مخصص للرضّع يساعد على تهدئة أعراض البرد والانزعاج — حسب النشرة.', price:11800, unit:'عبوة 100 مل', specs:['شراب'], offer:'4/10'},
+  {id:41, cat:'syr', icon:'droplets', name:'كالمكس لاند شراب', desc:'شراب مهدئ للسعال والانزعاج عند الأطفال — حسب النشرة الداخلية.', price:7900, unit:'عبوة 100 مل', specs:['شراب'], offer:'5/20'},
+  {id:42, cat:'syr', icon:'droplets', name:'نيفرو فوريل لاند شراب', desc:'مضاد جراثيم معوي من مشتقات النيتروفوران — للإسهالات.', price:11300, unit:'عبوة 100 مل', specs:['شراب'], offer:'5/10'},
+  {id:43, cat:'syr', icon:'droplets', name:'ميترو فوريل لاند شراب', desc:'مضاد للأميبا والجياردية والجراثيم اللاهوائية.', price:14500, unit:'عبوة 100 مل', specs:['شراب'], offer:'5/10'},
+  {id:44, cat:'syr', icon:'droplets', name:'سيترتين لاند شراب', desc:'مضاد للهستامين — لأعراض الحساسية والزكام التحسسي.', price:12600, unit:'عبوة 100 مل', specs:['شراب'], offer:'5/10'},
+  {id:45, cat:'syr', icon:'droplets', name:'برولتون لاند شراب', desc:'شراب من أصناف المعمل — التفاصيل الكاملة في النشرة الداخلية.', price:8500, unit:'عبوة 100 مل', specs:['شراب'], offer:'2/10'},
+  {id:46, cat:'syr', icon:'droplets', name:'كبدي لاند موز + زنك', desc:'شراب منشط للشهية والدعم الغذائي مع الزنك — نكهة الموز.', price:6400, unit:'عبوة 250 مل', specs:['شراب'], offer:'3/10'},
+  {id:47, cat:'syr', icon:'droplets', name:'كبدي لاند تفاح + زنك', desc:'نفس تركيب كبدي لاند مع الزنك — نكهة التفاح.', price:6400, unit:'عبوة 250 مل', specs:['شراب'], offer:'3/10'},
+  {id:48, cat:'syr', icon:'droplets', name:'كبدي لاند سادة + زنك', desc:'نفس تركيب كبدي لاند مع الزنك — بدون نكهة.', price:6400, unit:'عبوة 250 مل', specs:['شراب'], offer:'3/10'},
+  {id:49, cat:'caps', icon:'pill', name:'أموكسيسيلين 500 — كبسول', desc:'مضاد حيوي واسع الطيف من البنسلينات — كبسولات 500 ملغ.', price:5200, unit:'علبة كبسولات', specs:['كبسولات']},
+  {id:50, cat:'caps', icon:'pill', name:'أوميبرازول كند لاند 20 ملغ', desc:'مثبط مضخة البروتون — للحموضة والقرحة والارتجاع.', price:7000, unit:'كبسولات 20 ملغ', specs:['كبسولات'], offer:'4/10'},
+  {id:51, cat:'caps', icon:'pill', name:'أوميبرازول كند لاند 40 ملغ', desc:'مثبط مضخة البروتون — للحموضة والقرحة والارتجاع.', price:8000, unit:'كبسولات 40 ملغ', specs:['كبسولات'], offer:'4/10'},
+  {id:52, cat:'caps', icon:'pill', name:'فلامازون كبسول (بلازون)', desc:'كبسولات تُصرَف بوصفة طبية — حسب النشرة الداخلية.', price:8000, unit:'علبة كبسولات', specs:['كبسولات — بوصفة طبية فقط'], offer:'3/10', rx:true},
+  {id:53, cat:'caps', icon:'pill', name:'ماكسين 500 — كبسول', desc:'كبسولات 500 ملغ من أصناف المعمل — حسب النشرة الداخلية.', price:5600, unit:'علبة كبسولات', specs:['كبسولات']},
+  {id:54, cat:'caps', icon:'pill', name:'بيلوكسام 500 — كبسول', desc:'كبسولات 500 ملغ من أصناف المعمل — حسب النشرة الداخلية.', price:5800, unit:'علبة كبسولات', specs:['كبسولات']},
+  {id:55, cat:'caps', icon:'syringe', name:'ديكستروز لاند 5%', desc:'محلول يُعطى وريدياً بإشراف طبي — للترطيب وتعويض السوائل والطاقة.', price:6400, unit:'عبوة محلول وريدي', specs:['محلول وريدي — بإشراف طبي'], offer:'2/10', rx:true},
+  {id:56, cat:'derm', icon:'droplets', name:'سبتيال لاند — محلول جلدي مطهر', desc:'مطهر للجلد وتنظيف الجروح.', price:12800, unit:'عبوة محلول', specs:['محلول جلدي'], offer:'5/10'},
+  {id:57, cat:'derm', icon:'syringe', name:'كلورديون — أمبول محلول', desc:'محلول بأمبولات للاستخدام الطبي — حسب النشرة الداخلية.', price:6100, unit:'أمبولات', specs:['أمبولات محلول'], offer:'3/10'},
+  {id:58, cat:'derm', icon:'bandage', name:'كريم بوفيدون 10% — 30 غ', desc:'كريم مطهر للجروح السطحية وتهيّجات الجلد — بوفيدون أيودين 10%.', price:8500, unit:'أنبوب 30 غ', specs:['كريم مطهر'], offer:'5/10'},
+  {id:59, cat:'derm', icon:'bandage', name:'مرهم ميبو — المرهم الرياضي', desc:'مرهم خارجي لآلام المفاصل والشدات العضلية.', price:32000, unit:'علبة 50 غ', specs:['مرهم خارجي'], offer:'5/10'},
+  {id:60, cat:'derm', icon:'pill', name:'زيت خروع كبسول', desc:'ملين طبيعي يساعد على تنظيف الأمعاء — 20 كبسولة.', price:10000, unit:'علبة 20 كبسولة', specs:['كبسولات'], offer:'2/10'},
+  {id:61, cat:'derm', icon:'droplets', name:'زيت خروع سادة', desc:'زيت خروع ملين طبيعي — بدون نكهة.', price:4200, unit:'عبوة', specs:[]},
+  {id:62, cat:'derm', icon:'droplets', name:'زيت خروع موز', desc:'زيت خروع ملين طبيعي — بنكهة الموز.', price:4200, unit:'عبوة', specs:[]},
+  {id:63, cat:'derm', icon:'droplets', name:'زيت خروع فراولة', desc:'زيت خروع ملين طبيعي — بنكهة الفراولة.', price:4200, unit:'عبوة', specs:[]},
+  {id:64, cat:'derm', icon:'droplets', name:'بوفيدون أحمر 4%', desc:'مطهر سائل للجروح — بوفيدون أيودين 4%.', price:3700, unit:'عبوة', specs:[]},
+  {id:65, cat:'derm', icon:'droplets', name:'بوفيدون أزرق 10%', desc:'مطهر سائل مركّز للجروح والجلد — بوفيدون أيودين 10%.', price:4980, unit:'عبوة', specs:[]},
+  {id:66, cat:'derm', icon:'package', name:'بوفيدون بودرة 5%', desc:'بودرة مطهرة لمناطق التعرق والتهيّجات.', price:3520, unit:'عبوة بودرة', specs:[]},
+  {id:67, cat:'derm', icon:'package', name:'كلوتريمازول بودرة', desc:'بودرة مضادة للفطريات.', price:4180, unit:'عبوة بودرة', specs:[]},
+  {id:68, cat:'derm', icon:'spray-can', name:'ليدوكائين بخاخ', desc:'مخدر موضعي على شكل بخاخ.', price:5200, unit:'عبوة بخاخ', specs:[]},
+  {id:69, cat:'derm', icon:'droplets', name:'سافلون محلول', desc:'محلول مطهر للاستخدام المنزلي والطبي.', price:2900, unit:'عبوة 250 مل', specs:[]},
+  {id:70, cat:'derm', icon:'droplets', name:'هيكساميدين محلول', desc:'مطهر للفم والحلق والجروح — حسب النشرة الداخلية.', price:3600, unit:'عبوة 50 مل', specs:[]},
+  {id:71, cat:'derm', icon:'droplets', name:'غليسرين نقي', desc:'مرطب وملين للاستخدام الخارجي.', price:3600, unit:'عبوة 50 مل', specs:[]},
+  {id:72, cat:'derm', icon:'droplets', name:'بيبرمثرين 5% للكبار — محلول', desc:'محلول بيرمثرين 5% لعلاج الجرب لدى الكبار.', price:4400, unit:'عبوة محلول', specs:[]},
+  {id:73, cat:'derm', icon:'droplets', name:'بيبرمثرين 2.5% للصغار — محلول', desc:'محلول بيرمثرين 2.5% بتركيز مخصص للأطفال.', price:4000, unit:'عبوة محلول', specs:[]}
+];
+
+/* ═══════════════════════════════════════════════════════
+   أدوات مساعدة
+═══════════════════════════════════════════════════════ */
+const $ = s => document.querySelector(s);
+const fmt = n => (n == null || isNaN(+n)) ? 'حسب الطلب' : Number(n).toLocaleString('en-US') + ' ل.س';
+const norm = s => (s||'').replace(/[\u064B-\u0652\u0640]/g,'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي');
+const catNameOf = id => (CATS.find(c=>c.id===id)||{}).name || '';
+function refreshIcons(){
+  if(!window.lucide) return;
+  try{ lucide.createIcons({attrs:{'stroke-width':1.8}}); }catch(e){ lucide.createIcons(); }
+}
+function toast(msg, icon='check'){
+  const t = document.createElement('div');
+  t.className = 'toast';
+  t.innerHTML = `<span class="t-ic"><i data-lucide="${icon}"></i></span><span>${msg}</span>`;
+  $('#toasts').appendChild(t); refreshIcons();
+  requestAnimationFrame(()=>t.classList.add('show'));
+  setTimeout(()=>{ t.classList.remove('show'); setTimeout(()=>t.remove(), 380); }, 3200);
+}
+function copyText(t){
+  if(navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(t);
+  return new Promise((res,rej)=>{
+    try{
+      const ta = document.createElement('textarea');
+      ta.value = t; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); ta.remove(); res();
+    }catch(e){ rej(e); }
+  });
+}
+
+/* ═══════════════════════════════════════════════════════
+   بيانات المنتجات: الافتراضي + المحفوظ من لوحة التحكم
+═══════════════════════════════════════════════════════ */
+function loadProducts(){
+  try{
+    const s = localStorage.getItem('areej_products_v2');
+    if(s){
+      const a = JSON.parse(s);
+      if(Array.isArray(a) && a.length) return a;
+    }
+  }catch(e){}
+  return SEED_PRODUCTS.map(p=>({...p, specs:[...p.specs]}));
+}
+let PRODUCTS = loadProducts();
+const saveProducts = ()=> localStorage.setItem('areej_products_v2', JSON.stringify(PRODUCTS));
+
+/* ═══════════════════════════════════════════════════════
+   الكتالوج: فلاتر + بحث + عرض
+═══════════════════════════════════════════════════════ */
+const state = { cat:'all', q:'' };
+const chipsEl = $('#chips'), listEl = $('#prodList'), searchEl = $('#searchInput'), countEl = $('#prodCount');
+
+function buildChips(){
+  const counts = {all: PRODUCTS.length};
+  PRODUCTS.forEach(p => counts[p.cat] = (counts[p.cat]||0)+1);
+  chipsEl.innerHTML = [{id:'all',name:'الكل'}, ...CATS]
+    .map(c => `<button class="chip ${state.cat===c.id?'on':''}" data-cat="${c.id}">${c.name}<b>${counts[c.id]||0}</b></button>`).join('');
+}
+chipsEl.addEventListener('click', e=>{
+  const b = e.target.closest('.chip'); if(!b) return;
+  state.cat = b.dataset.cat; buildChips(); renderProducts();
+});
+searchEl.addEventListener('input', ()=>{ state.q = norm(searchEl.value); renderProducts(); });
+
+function productRow(p, i){
+  const ask = p.price == null;
+  const offerTag = p.offer ? `<span class="p-tag p-offer">هدية ${p.offer.replace('/',' مع ')}</span>` : '';
+  const rxTag = p.rx ? '<span class="p-tag p-rx">بوصفة طبية</span>' : '';
+  return `
+  <article class="p-row" data-id="${p.id}" style="animation-delay:${Math.min(i*35,280)}ms">
+    <div class="p-head">
+      <span class="p-num">${String(i+1).padStart(2,'0')}</span>
+      <div class="p-ic"><i data-lucide="${p.icon||'pill'}"></i></div>
+      <div class="p-info">
+        <h3>${p.name}${p.isNew?'<span class="p-tag p-new">جديد</span>':''}${rxTag}${offerTag}<span class="p-tag">${catNameOf(p.cat)}</span></h3>
+        <p>${p.desc||''}</p>
+      </div>
+      <div class="p-buy">
+        <div class="p-price">
+          <strong>${fmt(p.price)}</strong>${p.price!=null ? ` <span>/ ${p.unit||'وحدة'}</span>` : ''}
+        </div>
+        ${ask
+          ? `<button class="p-add p-ask" data-ask="${p.id}"><span>استفسر واتساب</span><i data-lucide="message-circle"></i></button>`
+          : `<button class="p-add" data-id="${p.id}"><span>أضف للطلب</span><i data-lucide="plus"></i></button>`}
+      </div>
+      <button class="p-caret" aria-label="عرض التفاصيل"><i data-lucide="chevron-down"></i></button>
+    </div>
+    <div class="p-body"><div class="p-body-in">
+      <div class="p-specs">
+        <h4>تفاصيل الصنف</h4>
+        <ul>${(p.specs||[]).map(s=>`<li>${s}</li>`).join('')}</ul>
+      </div>
+    </div></div>
+  </article>`;
+}
+
+function renderProducts(){
+  const q = norm(state.q.trim());
+  const list = PRODUCTS.filter(p =>
+    (state.cat==='all' || p.cat===state.cat) &&
+    (!q || norm((p.name||'')+' '+(p.desc||'')+' '+catNameOf(p.cat)).includes(q))
+  );
+  countEl.textContent = `عرض ${list.length} من ${PRODUCTS.length} صنفًا`;
+  if(list.length === 0){
+    listEl.innerHTML = `<div class="empty">
+      <i data-lucide="search-x"></i>
+      <p>لا توجد منتجات مطابقة لبحثك — جرّب كلمة أخرى أو أعد تعيين الفلاتر.</p>
+      <button class="btn btn-gold" id="btnClearFilters"><i data-lucide="rotate-ccw"></i>إعادة تعيين الفلاتر</button>
+    </div>`;
+    $('#btnClearFilters').addEventListener('click', ()=>{
+      state.cat='all'; state.q=''; searchEl.value=''; buildChips(); renderProducts();
+    });
+  } else {
+    listEl.innerHTML = list.map(productRow).join('');
+  }
+  refreshIcons();
+}
+
+listEl.addEventListener('click', e=>{
+  const ask = e.target.closest('[data-ask]');
+  const add = e.target.closest('.p-add');
+  if(ask){ e.stopPropagation(); askPrice(+ask.dataset.ask); return; }
+  if(add){ e.stopPropagation(); addToCart(+add.dataset.id, add); return; }
+  const row = e.target.closest('.p-row');
+  if(row) row.classList.toggle('open');
+});
+
+/* استفسار سعر صنف «حسب الطلب» عبر واتساب */
+function openWhatsApp(msg){
+  const url = 'https://wa.me/' + WHATSAPP_NUMBER + (msg ? '?text=' + encodeURIComponent(msg) : '');
+  try{
+    const pr = (navigator.clipboard && navigator.clipboard.writeText) ? navigator.clipboard.writeText(msg) : null;
+    if(pr && pr.catch) pr.catch(()=>{});
+  }catch(e){}
+  window.open(url, '_blank', 'noopener');
+}
+function askPrice(id){
+  const p = PRODUCTS.find(x=>x.id===id); if(!p) return;
+  const msg = '🌿 استفسار عن صنف — أريج الشام · المكتب العلمي لمعمل فارما لاند\n\n'
+    + 'الصنف: ' + p.name + '\n'
+    + 'الشكل: ' + (p.unit || '—') + '\n'
+    + 'المطلوب: معرفة السعر الرسمي والكمية المتوفرة';
+  openWhatsApp(msg);
+  toast('بنفتحلك واتساب مع تفاصيل الصنف','send');
+}
+
+document.querySelectorAll('[data-cat]').forEach(a=>{
+  a.addEventListener('click', ()=>{
+    state.cat = a.dataset.cat; buildChips(); renderProducts();
+    $('#products').scrollIntoView({behavior:'smooth'});
+  });
+});
+
+/* ═══════════════════════════════════════════════════════
+   سلة طلب عرض السعر
+═══════════════════════════════════════════════════════ */
+let cart = new Map();
+try{
+  (JSON.parse(localStorage.getItem('areej_cart_v2'))||[]).forEach(([id,q])=>{
+    if(PRODUCTS.some(p=>p.id===id) && q>0) cart.set(id, q);
+  });
+}catch(e){}
+const saveCart = ()=> localStorage.setItem('areej_cart_v2', JSON.stringify([...cart]));
+
+const drawer=$('#drawer'), overlay=$('#overlay'), badge=$('#cartBadge');
+const viewCart=$('#viewCart'), viewForm=$('#viewForm'), viewDone=$('#viewDone'), drFoot=$('#drFoot');
+
+function openDrawer(){ drawer.classList.add('open'); overlay.classList.add('show'); document.body.classList.add('lock'); drawer.setAttribute('aria-hidden','false'); }
+function closeDrawer(){ drawer.classList.remove('open'); overlay.classList.remove('show'); document.body.classList.remove('lock'); drawer.setAttribute('aria-hidden','true'); setTimeout(showCartView, 450); }
+function showCartView(){ viewCart.classList.remove('hide'); viewForm.classList.add('hide'); viewDone.classList.add('hide'); drFoot.classList.remove('hide'); }
+
+function addToCart(id, btn){
+  const p = PRODUCTS.find(x=>x.id===id); if(!p) return;
+  cart.set(id, (cart.get(id)||0)+1); saveCart(); renderCart();
+  toast(`أُضيف «${p.name}» إلى سلة الطلب`);
+  if(btn){
+    const original = btn.innerHTML;
+    btn.classList.add('ok');
+    btn.innerHTML = `أُضيف <i data-lucide="check"></i>`; refreshIcons();
+    setTimeout(()=>{ btn.classList.remove('ok'); btn.innerHTML = original; refreshIcons(); }, 1300);
+  }
+  badge.classList.remove('bump'); void badge.offsetWidth; badge.classList.add('bump');
+}
+
+function cartItemsList(){
+  return [...cart.entries()]
+    .map(([id,q])=>({p:PRODUCTS.find(x=>x.id===id), q}))
+    .filter(i=>i.p);
+}
+
+function renderCart(){
+  const items = cartItemsList();
+  const count = items.reduce((s,i)=>s+i.q,0);
+  const total = items.reduce((s,i)=>s+i.p.price*i.q,0);
+
+  badge.textContent = count;
+  badge.classList.toggle('hide', count===0);
+  $('#drCount').textContent = count ? `${count} ${count===1?'صنف':'أصناف'} في الطلب` : 'لا أصناف بعد';
+
+  if(items.length === 0){
+    $('#drEmpty').classList.remove('hide');
+    $('#cartItems').innerHTML = '';
+    $('#drTotal').textContent = '$0';
+    $('#btnToForm').classList.add('hide');
+  } else {
+    $('#drEmpty').classList.add('hide');
+    $('#cartItems').innerHTML = items.map(({p,q})=>`
+      <div class="c-item">
+        <div class="p-ic"><i data-lucide="${p.icon||'leaf'}"></i></div>
+        <div>
+          <h4>${p.name}</h4>
+          <span class="unit">${fmt(p.price)} / ${p.unit||'وحدة'}</span>
+          <div class="qty" style="margin-top:8px">
+            <button data-dec="${p.id}" aria-label="إنقاص"><i data-lucide="minus"></i></button>
+            <b>${q}</b>
+            <button data-inc="${p.id}" aria-label="زيادة"><i data-lucide="plus"></i></button>
+          </div>
+        </div>
+        <div class="c-side">
+          <strong>${fmt(p.price*q)}</strong>
+          <button class="del" data-del="${p.id}" aria-label="حذف"><i data-lucide="trash-2"></i></button>
+        </div>
+      </div>`).join('');
+    $('#drTotal').textContent = fmt(total);
+    $('#btnToForm').classList.remove('hide');
+  }
+  refreshIcons();
+}
+
+ $('#cartItems').addEventListener('click', e=>{
+  const inc = e.target.closest('[data-inc]'), dec = e.target.closest('[data-dec]'), del = e.target.closest('[data-del]');
+  if(inc){ cart.set(+inc.dataset.inc, cart.get(+inc.dataset.inc)+1); }
+  else if(dec){ const id=+dec.dataset.dec; const q=cart.get(id)-1; q<=0 ? cart.delete(id) : cart.set(id,q); }
+  else if(del){ cart.delete(+del.dataset.del); toast('أُزيل المنتج من الطلب','trash-2'); }
+  else return;
+  saveCart(); renderCart();
+});
+
+ $('#btnToForm').addEventListener('click', ()=>{
+  const items = cartItemsList();
+  const count = items.reduce((s,i)=>s+i.q,0);
+  const total = items.reduce((s,i)=>s+i.p.price*i.q,0);
+  $('#sumCount').textContent = `${count} صنفًا في الطلب`;
+  $('#sumTotal').textContent = fmt(total);
+  viewCart.classList.add('hide'); viewForm.classList.remove('hide'); drFoot.classList.add('hide');
+  refreshIcons();
+});
+ $('#btnBackToCart').addEventListener('click', showCartView);
+ $('#btnDoneClose').addEventListener('click', ()=>{ closeDrawer(); setTimeout(showCartView,460); });
+ $('#btnBrowse').addEventListener('click', ()=>{ closeDrawer(); $('#products').scrollIntoView({behavior:'smooth'}); });
+
+/* تجهيز نص الطلب */
+let lastOrderMsg = '';
+function buildOrderMsg(f){
+  const items = cartItemsList();
+  const total = items.reduce((s,i)=>s+i.p.price*i.q,0);
+  let msg = '🌿 طلبية جديدة — أريج الشام · المكتب العلمي لمعمل فارما لاند\n\n';
+  items.forEach(i=>{ msg += `• ${i.p.name} × ${i.q} = ${fmt(i.p.price*i.q)}\n`; });
+  msg += `\nالإجمالي التقديري: ${fmt(total)}\n`;
+  msg += `\nالاسم: ${f.fName.value.trim()}`;
+  msg += `\nجهة العمل: ${f.fOrg.value.trim()}`;
+  if(f.fMail.value.trim()) msg += `\nالبريد: ${f.fMail.value.trim()}`;
+  if(f.fPhone.value.trim()) msg += `\nهاتف (للتوصيل): ${f.fPhone.value.trim()}`;
+  if(f.fNotes.value.trim()) msg += `\nملاحظات: ${f.fNotes.value.trim()}`;
+  return msg;
+}
+
+/* إرسال الطلب → نسخ + فتح واتساب */
+ $('#orderForm').addEventListener('submit', e=>{
+  e.preventDefault();
+  const f = e.target; let ok = true;
+  [['fName', v=>v.trim().length>1], ['fOrg', v=>v.trim().length>1]]
+  .forEach(([name, test])=>{
+    const input = f[name], field = input.closest('.field');
+    const valid = test(input.value);
+    field.classList.toggle('err', !valid);
+    if(!valid && ok){ input.focus(); ok = false; }
+  });
+  if(!ok) return;
+
+  lastOrderMsg = buildOrderMsg(f);
+  /* حفظ نسخة من الطلب في سجل الطلبات (تظهر بلوحة التحكم على نفس الجهاز) */
+  try{
+    const its = cartItemsList();
+    const l = loadOrders();
+    l.push({ id: Date.now(), name: f.fName.value.trim(), phone: f.fPhone.value.trim(), org: f.fOrg.value.trim(),
+      items: its.map(i=>`${i.p.name} × ${i.q}`).join('، '), total: its.reduce((s,i)=>s+i.p.price*i.q,0),
+      note: f.fNotes.value.trim(), status:'new', src:'site', at: nowStamp() });
+    saveOrders(l);
+  }catch(err){}
+  $('#refNum').textContent = 'SR-' + Math.floor(1000 + Math.random()*9000);
+  viewForm.classList.add('hide'); drFoot.classList.add('hide');
+  viewDone.classList.remove('hide');
+  cart.clear(); saveCart(); renderCart();
+  toast('جهّزنا طلبك — أرسله الآن عبر واتساب','send');
+});
+
+ $('#msSend').addEventListener('click', ()=>{
+  const msg = lastOrderMsg || '🌿 مرحبًا — بدي استفسر عن أصناف معمل فارما لاند';
+  openWhatsApp(msg);
+  toast('بنفتحلك واتساب وطلبك جاهز للإرسال','send');
+});
+
+ /* نموذج التواصل → نسخ + فتح واتساب */
+ $('#contactForm').addEventListener('submit', e=>{
+  e.preventDefault();
+  const f = e.target;
+  const nameOk = f.cName.value.trim().length>1;
+  f.cName.closest('.field').classList.toggle('err', !nameOk);
+  if(!nameOk){ f.cName.focus(); return; }
+
+  let msg = '✉️ استفسار من موقع أريج الشام — المكتب العلمي لمعمل فارما لاند\n\n';
+  msg += 'الاسم: ' + f.cName.value.trim() + '\n';
+  if(f.cOrg.value.trim()) msg += 'جهة العمل: ' + f.cOrg.value.trim() + '\n';
+  if(f.cMail.value.trim()) msg += 'البريد: ' + f.cMail.value.trim() + '\n';
+  if(f.cPhone.value.trim()) msg += 'هاتف: ' + f.cPhone.value.trim() + '\n';
+  if(f.cMsg.value.trim()) msg += '\nالرسالة:\n' + f.cMsg.value.trim();
+
+  openWhatsApp(msg);
+  toast('بنفتحلك واتساب ورسالتك جاهزة للإرسال','clipboard-check');
+});
+
+ document.addEventListener('input', e=> e.target.closest('.field')?.classList.remove('err'));
+
+ $('#btnCart').addEventListener('click', openDrawer);
+ $('#drClose').addEventListener('click', closeDrawer);
+overlay.addEventListener('click', closeDrawer);
+
+/* ═══════════════════════════════════════════════════════
+   لوحة التحكم: إضافة / تعديل / حذف المنتجات
+═══════════════════════════════════════════════════════ */
+const admDrawer=$('#admDrawer');
+let admAuthed = false, editingId = null, selectedIcon = 'leaf';
+
+let admTab = 'products', pendingTab = null;
+function openAdmin(tab){
+  if(typeof tab === 'string') pendingTab = tab;
+  showAdmView(admAuthed ? 'panel' : 'login');
+  if(admAuthed && pendingTab){ setAdmTab(pendingTab); pendingTab = null; }
+  admDrawer.classList.add('open'); overlay.classList.add('show'); document.body.classList.add('lock'); admDrawer.setAttribute('aria-hidden','false');
+}
+/* رابط المديرة المباشر: عنوان-الموقع/#admin  أو  عنوان-الموقع/#orders */
+function checkAdminHash(){
+  const h = (location.hash||'').replace('#','').trim().toLowerCase();
+  if(h==='admin') openAdmin('products');
+  else if(h==='orders') openAdmin('orders');
+}
+window.addEventListener('hashchange', checkAdminHash);
+function closeAdmin(){ admDrawer.classList.remove('open'); overlay.classList.remove('show'); document.body.classList.remove('lock'); admDrawer.setAttribute('aria-hidden','true'); }
+
+function showAdmView(name){
+  $('#admLogin').classList.toggle('hide', name!=='login');
+  $('#admPanel').classList.toggle('hide', name!=='panel');
+  $('#admForm').classList.toggle('hide', name!=='form');
+  if(name==='panel') setAdmTab(admTab);
+  refreshIcons();
+}
+
+ $('#adminEntry').addEventListener('click', () => openAdmin());
+ $('#admClose').addEventListener('click', closeAdmin);
+
+ $('#btnLogin').addEventListener('click', ()=>{
+  const v = $('#admPass').value;
+  if(v === ADMIN_PASS){
+    admAuthed = true;
+    $('#admPass').value = ''; $('#admPass').closest('.field').classList.remove('err');
+    showAdmView('panel');
+    if(pendingTab){ setAdmTab(pendingTab); pendingTab = null; }
+    toast('أهلًا بك في لوحة التحكم','unlock');
+  } else {
+    $('#admPass').closest('.field').classList.add('err');
+    toast('كلمة السر غير صحيحة','shield-alert');
+  }
+});
+ $('#admPass').addEventListener('keydown', e=>{ if(e.key==='Enter') $('#btnLogin').click(); });
+ $('#btnLogout').addEventListener('click', ()=>{ admAuthed = false; showAdmView('login'); toast('تم تسجيل الخروج','log-out'); });
+
+function renderAdminList(){
+  $('#admSub').textContent = `${PRODUCTS.length} صنفًا في الكتالوج`;
+  $('#admList').innerHTML = PRODUCTS.map(p=>`
+    <div class="adm-item">
+      <div class="p-ic"><i data-lucide="${p.icon||'leaf'}"></i></div>
+      <div>
+        <h4>${p.name}${p.isNew?' <span class="p-tag p-new">جديد</span>':''}</h4>
+        <span class="meta">${catNameOf(p.cat)} · ${p.price==null ? 'حسب الطلب' : fmt(p.price)+' / '+(p.unit||'وحدة')}</span>
+      </div>
+      <div class="adm-acts">
+        <button class="adm-act" data-edit="${p.id}" aria-label="تعديل"><i data-lucide="pencil"></i></button>
+        <button class="adm-act" data-del="${p.id}" aria-label="حذف"><i data-lucide="trash-2"></i></button>
+      </div>
+    </div>`).join('') || '<p style="color:var(--ink-2);text-align:center;padding:30px 0">لا منتجات — أضف منتجك الأول.</p>';
+  refreshIcons();
+}
+
+ $('#admList').addEventListener('click', e=>{
+  const eb = e.target.closest('[data-edit]');
+  const db = e.target.closest('[data-del]');
+  if(eb){ showAdmForm(PRODUCTS.find(p=>p.id === +eb.dataset.edit)); }
+  else if(db){
+    if(db.classList.contains('confirm')){
+      PRODUCTS = PRODUCTS.filter(p=>p.id !== +db.dataset.del);
+      saveProducts(); rerenderAll(); renderAdminList();
+      toast('حُذف المنتج نهائيًا','trash-2');
+    } else {
+      db.classList.add('confirm'); db.textContent = 'تأكيد؟';
+      setTimeout(()=>{ if(document.body.contains(db)){ db.classList.remove('confirm'); db.innerHTML = '<i data-lucide="trash-2"></i>'; refreshIcons(); } }, 2600);
+    }
+  }
+});
+
+/* بناء اختيار الفئة + شبكة الأيقونات */
+function buildPfCat(){
+  $('#pfCat').innerHTML = CATS.map(c=>`<option value="${c.id}">${c.name}</option>`).join('');
+}
+function renderIconPick(sel){
+  $('#pfIcons').innerHTML = ICONS.map(i=>`<button type="button" data-icon="${i}" class="${i===sel?'on':''}"><i data-lucide="${i}"></i></button>`).join('');
+  selectedIcon = sel; refreshIcons();
+}
+ $('#pfIcons').addEventListener('click', e=>{
+  const b = e.target.closest('[data-icon]'); if(!b) return;
+  renderIconPick(b.dataset.icon);
+});
+
+function showAdmForm(p){
+  editingId = p ? p.id : null;
+  $('#admFormTitle').textContent = p ? 'تعديل المنتج' : 'إضافة منتج جديد';
+  $('#pfName').value  = p ? p.name : '';
+  $('#pfCat').value   = p ? p.cat : CATS[0].id;
+  $('#pfPrice').value = p ? p.price : '';
+  $('#pfUnit').value  = p ? (p.unit||'') : '';
+  $('#pfDesc').value  = p ? (p.desc||'') : '';
+  $('#pfSpecs').value = p ? (p.specs||[]).join('\n') : '';
+  $('#pfFrom').checked = p ? !!p.from : false;
+  $('#pfNew').checked  = p ? !!p.isNew : false;
+  renderIconPick(p ? (p.icon||'leaf') : 'leaf');
+  showAdmView('form');
+}
+
+ $('#btnAdd').addEventListener('click', ()=>showAdmForm(null));
+ $('#btnCancelP').addEventListener('click', ()=>showAdmView('panel'));
+
+ $('#productForm').addEventListener('submit', e=>{
+  e.preventDefault();
+  const name = $('#pfName').value.trim();
+  const priceRaw = $('#pfPrice').value.trim();
+  const price = priceRaw === '' ? null : parseFloat(priceRaw);
+  let ok = true;
+  const fName = $('#pfName').closest('.field'), fPrice = $('#pfPrice').closest('.field');
+  fName.classList.toggle('err', name.length<2); if(name.length<2) ok = false;
+  fPrice.classList.toggle('err', priceRaw !== '' && !(price>0)); if(priceRaw !== '' && !(price>0)) ok = false;
+  if(!ok){ toast('راجع الحقول المعلّمة','alert-circle'); return; }
+
+  const data = {
+    id: editingId ?? Date.now(),
+    cat: $('#pfCat').value,
+    icon: selectedIcon,
+    name,
+    desc: $('#pfDesc').value.trim(),
+    price,
+    unit: $('#pfUnit').value.trim() || 'وحدة',
+    specs: $('#pfSpecs').value.split('\n').map(s=>s.trim()).filter(Boolean),
+    from: $('#pfFrom').checked,
+    isNew: $('#pfNew').checked,
+  };
+  if(editingId){
+    const i = PRODUCTS.findIndex(p=>p.id===editingId);
+    if(i>-1) PRODUCTS[i] = data;
+    toast('حُفظت التعديلات بنجاح','save');
+  } else {
+    PRODUCTS.push(data);
+    toast(`أُضيف «${name}» إلى الكتالوج`,'plus-circle');
+  }
+  saveProducts(); rerenderAll(); showAdmView('panel');
+});
+
+/* تصدير / استيراد / استعادة */
+ $('#btnExport').addEventListener('click', ()=>{
+  const data = JSON.stringify(PRODUCTS, null, 2);
+  try{
+    const blob = new Blob([data], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'areej-products.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }catch(e){}
+  try{ navigator.clipboard.writeText(data); toast('نُزّلت نسخة JSON ونُسخت للحافظة','download'); }
+  catch(e){ toast('نُزّلت نسخة JSON','download'); }
+});
+ $('#btnImport').addEventListener('click', ()=>{ $('#importBox').classList.toggle('hide'); });
+ $('#btnImportNo').addEventListener('click', ()=>$('#importBox').classList.add('hide'));
+ $('#btnImportOk').addEventListener('click', ()=>{
+  try{
+    const a = JSON.parse($('#importText').value);
+    if(!Array.isArray(a)) throw 0;
+    PRODUCTS = a.filter(p=>p && p.name).map(p=>({
+      id: p.id || Date.now()+Math.random(),
+      cat: p.cat || 'supp',
+      icon: p.icon || 'leaf',
+      name: String(p.name),
+      desc: p.desc || '',
+      price: +p.price || 0,
+      unit: p.unit || 'وحدة',
+      specs: Array.isArray(p.specs) ? p.specs.map(String) : [],
+      from: !!p.from,
+      isNew: !!p.isNew,
+    }));
+    saveProducts(); rerenderAll(); renderAdminList();
+    $('#importBox').classList.add('hide'); $('#importText').value = '';
+    toast(`تم استيراد ${PRODUCTS.length} منتجًا بنجاح`,'upload');
+  }catch(e){ toast('صيغة JSON غير صحيحة','alert-circle'); }
+});
+ $('#btnResetDef').addEventListener('click', ()=>{
+  PRODUCTS = SEED_PRODUCTS.map(p=>({...p, specs:[...p.specs]}));
+  saveProducts(); rerenderAll(); renderAdminList();
+  toast('استُعيدت المنتجات الافتراضية','rotate-ccw');
+});
+
+/* ═══════════════════════════════════════════════════════
+   تبويب الطلبات: تسجيل / عرض / تم الرد / حذف — محفوظة بهذا المتصفح
+═══════════════════════════════════════════════════════ */
+const esc = s => String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ORDERS_KEY = 'areej_orders_v1';
+const loadOrders = ()=>{ try{ return JSON.parse(localStorage.getItem(ORDERS_KEY)) || [] }catch(e){ return [] } };
+const saveOrders = l => localStorage.setItem(ORDERS_KEY, JSON.stringify(l));
+const nowStamp = ()=>{ const d = new Date(); return d.toLocaleDateString('ar',{day:'numeric',month:'short'}) + ' · ' + d.toLocaleTimeString('ar',{hour:'2-digit',minute:'2-digit'}); };
+
+function setAdmTab(t){
+  admTab = t;
+  document.querySelectorAll('.adm-tab').forEach(b=>b.classList.toggle('on', b.dataset.atab===t));
+  $('#tabProducts').classList.toggle('hide', t!=='products');
+  $('#tabOrders').classList.toggle('hide', t!=='orders');
+  if(t==='products') renderAdminList(); else renderOrders();
+}
+
+document.querySelectorAll('.adm-tab').forEach(b=>b.addEventListener('click', ()=>setAdmTab(b.dataset.atab)));
+
+function renderOrders(){
+  const list = loadOrders().sort((a,b)=>b.id-a.id);
+  const fresh = list.filter(o=>o.status==='new').length;
+  const badge = $('#ordBadge');
+  badge.textContent = fresh > 9 ? '9+' : fresh;
+  badge.classList.toggle('hide', !fresh);
+  $('#admSub').textContent = list.length ? (fresh ? `${fresh} طلب جديد بانتظار الرد` : `${list.length} طلب مسجل`) : 'إدارة الطلبات';
+  $('#ordList').innerHTML = list.length ? list.map(o=>`
+    <div class="adm-order${o.status==='done'?' is-done':''}">
+      <div class="ao-top">
+        <b>${esc(o.name)}</b>
+        <span class="ao-src">${o.src==='site' ? 'من الموقع' : 'تسجيل يدوي'}</span>
+        <span class="ao-st">${o.status==='done' ? 'تم الرد ✓' : 'جديدة'}</span>
+      </div>
+      ${o.org ? `<span class="ao-meta">جهة العمل: ${esc(o.org)}</span>` : ''}
+      ${o.phone ? `<a class="ao-meta" href="tel:${esc(o.phone)}" dir="ltr">${esc(o.phone)}</a>` : ''}
+      <p class="ao-items">${esc(o.items)}</p>
+      ${o.note ? `<p class="ao-note">ملاحظات: ${esc(o.note)}</p>` : ''}
+      <div class="ao-foot">
+        <b>${o.total ? fmt(+o.total) : '—'}</b>
+        <span class="ao-date">${esc(o.at)}</span>
+        <div class="adm-acts">
+          <button class="adm-act" data-done="${o.id}" aria-label="تغيير الحالة"><i data-lucide="${o.status==='done'?'rotate-ccw':'check'}"></i></button>
+          <button class="adm-act" data-odel="${o.id}" aria-label="حذف"><i data-lucide="trash-2"></i></button>
+        </div>
+      </div>
+    </div>`).join('') : '<p style="color:var(--ink-2);text-align:center;padding:30px 0">لا طلبات مسجلة بعد — سجّلي أول طلب من الزر فوق.</p>';
+  refreshIcons();
+}
+
+/* تفاعلات قائمة الطلبات: تم الرد / حذف بتأكيد */
+ $('#ordList').addEventListener('click', e=>{
+  const dn = e.target.closest('[data-done]');
+  const db = e.target.closest('[data-odel]');
+  if(dn){
+    const l = loadOrders(), o = l.find(x=>x.id === +dn.dataset.done);
+    if(o){ o.status = o.status==='done' ? 'new' : 'done'; saveOrders(l); renderOrders(); toast(o.status==='done' ? 'عُلّم الطلب «تم الرد»' : 'أُعيد الطلب كجديد','check'); }
+  } else if(db){
+    if(db.classList.contains('confirm')){
+      saveOrders(loadOrders().filter(o=>o.id !== +db.dataset.odel));
+      renderOrders(); toast('حُذف الطلب نهائيًا','trash-2');
+    } else {
+      db.classList.add('confirm'); db.textContent = 'تأكيد؟';
+      setTimeout(()=>{ if(document.body.contains(db)){ db.classList.remove('confirm'); db.innerHTML = '<i data-lucide="trash-2"></i>'; refreshIcons(); } }, 2600);
+    }
+  }
+});
+
+/* تسجيل طلب يدوي (طلب وصل عبر واتساب أو هاتف) */
+ $('#btnAddOrder').addEventListener('click', ()=>{ $('#ordBox').classList.toggle('hide'); if(!$('#ordBox').classList.contains('hide')) $('#ofName').focus(); });
+ $('#btnCancelOrd').addEventListener('click', ()=>$('#ordBox').classList.add('hide'));
+ $('#orderManualForm').addEventListener('submit', e=>{
+  e.preventDefault();
+  const name = $('#ofName').value.trim(), items = $('#ofItems').value.trim();
+  let ok = true;
+  $('#ofName').closest('.field').classList.toggle('err', name.length<2); if(name.length<2) ok = false;
+  $('#ofItems').closest('.field').classList.toggle('err', items.length<2); if(items.length<2) ok = false;
+  if(!ok){ toast('راجع الحقول المعلّمة','alert-circle'); return; }
+  const l = loadOrders();
+  l.push({
+    id: Date.now(),
+    name, items,
+    phone: $('#ofPhone').value.trim(),
+    org:   $('#ofOrg').value.trim(),
+    total: +$('#ofTotal').value || 0,
+    note:  $('#ofNote').value.trim(),
+    status:'new', src:'manual', at: nowStamp()
+  });
+  saveOrders(l);
+  e.target.reset(); $('#ordBox').classList.add('hide');
+  renderOrders();
+  toast('سُجّل الطلب وصار بالقائمة','plus-circle');
+});
+
+/* تصدير الطلبات كنسخة احتياطية */
+ $('#btnOrdersExport').addEventListener('click', ()=>{
+  const data = JSON.stringify(loadOrders(), null, 2);
+  try{
+    const blob = new Blob([data], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'areej-orders.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }catch(err){}
+  try{ navigator.clipboard.writeText(data); toast('نُزّلت نسخة الطلبات ونُسخت للحافظة','download'); }
+  catch(err){ toast('نُزّلت نسخة الطلبات','download'); }
+});
+function rerenderAll(){ buildChips(); renderProducts(); renderCart(); }
+
+/* ═══════════════════════════════════════════════════════
+   قائمة الموبايل + الهيدر عند التمرير
+═══════════════════════════════════════════════════════ */
+const mnav = $('#mnav');
+ $('#btnMobile').addEventListener('click', ()=>{ mnav.classList.add('open'); document.body.classList.add('lock'); });
+const closeMnav = ()=>{ mnav.classList.remove('open'); document.body.classList.remove('lock'); };
+ $('#mnavClose').addEventListener('click', closeMnav);
+mnav.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click', closeMnav));
+window.addEventListener('scroll', ()=> $('#siteHeader').classList.toggle('scrolled', window.scrollY > 10), {passive:true});
+
+/* ═══════════════════════════════════════════════════════
+   الظهور عند التمرير + العدادات
+═══════════════════════════════════════════════════════ */
+const io = new IntersectionObserver(entries=>{
+  entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+const ioNum = new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(!en.isIntersecting) return;
+    const el = en.target, target = +el.dataset.count, t0 = performance.now(), dur = 1400;
+    const step = now=>{
+      const k = Math.min((now-t0)/dur, 1), e = 1-Math.pow(1-k,3);
+      el.textContent = Math.round(target*e).toLocaleString('en-US');
+      if(k<1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+    ioNum.unobserve(el);
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-count]').forEach(el=>ioNum.observe(el));
+
+/* ═══════════════════════════════════════════════════════
+   الإقلاع
+═══════════════════════════════════════════════════════ */
+(function init(){
+  /* خط النمو: موجة ناعمة متكررة */
+  const unit = 'q 30 -26 60 0 t 60 0 ';
+  document.getElementById('growPath').setAttribute('d', 'M0 55 ' + unit.repeat(10));
+
+  /* الشريط المتحرك */
+  const words = ['أصناف فارما لاند الأصلية 100%','أسعار رسمية من المعمل — تشرين الأول 2026','عرض الشهر: 11+10 على المشمولات','مستحضرات أطفال وجلدية وعناية','توريد بالجملة لكل المناطق والوجهات','اطلب عبر واتساب — 0946 296 114'];
+  const group = words.map(w=>`<span>${w}</span><i></i>`).join('');
+  $('#mqTrack').innerHTML = group + group;
+
+  buildPfCat();
+  buildChips();
+  renderProducts();
+  renderCart();
+  refreshIcons();
+  checkAdminHash();
+})();
+</script>
+</body>
+</html>
